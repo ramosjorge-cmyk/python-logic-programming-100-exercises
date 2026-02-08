@@ -16,16 +16,18 @@ def cls():
 from colorama import Fore, Style, init
 init(autoreset=True)
 
-cls()
 
+while True:
+    cls()
+    ##############################################################
 
+    ##############################################################
+    # Pergunta para nova simulação
+    novo = (
+        input(Fore.MAGENTA + "\n🔁 Deseja simular novamente? (s/n): ").strip().lower()
+    )
 
-# Pergunta para nova simulação
-novo = input(Fore.MAGENTA + "\n🔁 Deseja simular novamente? (s/n): ").strip().lower()
-
-# Limpa o ecrã entre simulações para melhorar a experiência do utilizador
-cls()
-
-if novo != "s":
-    print(Fore.CYAN + Style.BRIGHT + "\n👋 Obrigado por simular! Até a próxima!\n")
-
+    if novo != "s":
+        cls()
+        print(Fore.CYAN + Style.BRIGHT + "\n👋 Obrigado por simular! Até a próxima!\n")
+        break

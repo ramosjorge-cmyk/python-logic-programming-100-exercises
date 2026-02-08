@@ -1,0 +1,73 @@
+import os
+import subprocess
+
+"""Exercício 38 + 39 + 40 + 41
+38) Escreva um programa que mostre na tela a seguinte contagem:
+6 7 8 9 10 11 Acabou!
+39) Faça um algoritmo que mostre na tela a seguinte contagem:
+10 9 8 7 6 5 4 3 Acabou!
+40) Crie um aplicativo que mostre na tela a seguinte
+contagem: 0 3 6 9 12 15 18 Acabou!
+41) Desenvolva um programa que mostre na tela a seguinte
+contagem: 100 95 90 85 80 ... 0 Acabou!
+"""
+
+# ============================================================
+#  LIMPAR ECRÃ (Windows / Linux / macOS)
+# ============================================================
+def cls():
+    """Limpa o terminal de forma compatível com vários sistemas operativos."""
+    comando = "cls" if os.name == "nt" else "clear"
+    subprocess.run(comando, shell=True)
+
+import time
+from colorama import Fore, Style, init
+init(autoreset=True)
+
+while True:
+    cls()
+    print(Fore.CYAN + Style.BRIGHT + "🔢 Contagens")
+
+    # ============================
+    #  CONTAGEM 38
+    # ============================
+    print(Fore.MAGENTA + Style.BRIGHT + "\n📌 Contagem 38: 6 a 11")
+    for i in range(6, 12):
+        print(Fore.GREEN + str(i), end=" ", flush=True)
+        time.sleep(0.5)
+    print(Fore.YELLOW + "\nAcabou!")
+
+    # ============================
+    #  CONTAGEM 39
+    # ============================
+    print(Fore.MAGENTA + Style.BRIGHT + "\n📌 Contagem 39: 10 até 3 (decrescente)")
+    for i in range(10, 2, -1):
+        print(Fore.GREEN + str(i), end=" ", flush=True)
+        time.sleep(0.5)
+    print(Fore.YELLOW + "\nAcabou!")
+
+    # ============================
+    #  CONTAGEM 40
+    # ============================
+    print(Fore.MAGENTA + Style.BRIGHT + "\n📌 Contagem 40: múltiplos de 3 até 18")
+    for i in range(0, 19, 3):
+        print(Fore.GREEN + str(i), end=" ", flush=True)
+        time.sleep(0.5)
+    print(Fore.YELLOW + "\nAcabou!")
+
+    # ============================
+    #  CONTAGEM 41
+    # ============================
+    print(Fore.MAGENTA + Style.BRIGHT + "\n📌 Contagem 41: de 100 até 0 (de 5 em 5)")
+    for i in range(100, -1, -5):
+        print(Fore.GREEN + str(i), end=" ", flush=True)
+        time.sleep(0.5)
+    print(Fore.YELLOW + "\nAcabou!\n")
+
+    # Pergunta para nova simulação
+    novo = input(Fore.MAGENTA + "🔁 Deseja simular novamente? (s/n): ").strip().lower()
+
+    if novo != "s":
+        cls()
+        print(Fore.CYAN + Style.BRIGHT + "\n👋 Obrigado por simular! Até a próxima!\n")
+        break
