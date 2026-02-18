@@ -1,8 +1,11 @@
 import os
 import subprocess
 
-"""Exercício 31
-31) [DESAFIO] Crie um jogo de JoKenPo (Pedra-Papel-Tesoura)
+"""Exercício 30
+30) [DESAFIO] Refaça o algoritmo 25, acrescentando o recurso de mostrar que tipo de triângulo será formado:
+- EQUILÁTERO: todos os lados iguais
+- ISÓSCELES: dois lados iguais
+- ESCALENO: todos os lados diferentes
 """
 
 # ============================================================
@@ -15,32 +18,37 @@ def cls():
 
 
 cls()
-import random
+# Loop infinito para garantir que o utilizador insere valores numéricos válidos
+while True:
+    try:
+        # Solicita ao utilizador o tamanho dos três segmentos de reta
+        distancia = float(input("Digite o tamanho de um segmento de reta: "))
+        distancia2 = float(input("Digite o tamanho de outro segmento de reta: "))
+        distancia3 = float(input("Digite o tamanho de outro segmento de reta: "))
+        break  # Sai do loop se tudo foi inserido corretamente
+    # Caso o utilizador insira algo que não seja número, mostra aviso e repete
+    except ValueError:
+        print("\nPor favor, digite um número válido.\n")
 
-print("Bem-vindo ao jogo de JoKenPo!")
-print("Escolha uma opção:")
-print("1 - Pedra")
-print("2 - Papel")
-print("3 - Tesoura")
+# Verifica se os três segmentos podem formar um triângulo
+# Regra: cada lado deve ser menor que a soma dos outros dois
+if (
+    (distancia < distancia2 + distancia3)
+    and (distancia2 < distancia + distancia3)
+    and (distancia3 < distancia + distancia2)
+):
+    print("\nÉ possível formar um triângulo com essas retas.\n")
 
-opcao_jogador = input("Digite o número da sua escolha: ")
-opcoes = { "1": "Pedra", "2": "Papel", "3": "Tesoura" }
-if opcao_jogador not in opcoes:
-    print("Opção inválida. Por favor, escolha 1, 2 ou 3.")
-else:
-    escolha_jogador = opcoes[opcao_jogador]
-    
-    escolha_computador = random.choice(list(opcoes.values()))
-
-    print(f"Você escolheu: {escolha_jogador}")
-    print(f"O computador escolheu: {escolha_computador}")
-
-    if escolha_jogador == escolha_computador:
-        print("Empate!")
-    elif (escolha_jogador == "Pedra" and escolha_computador == "Tesoura") or \
-         (escolha_jogador == "Papel" and escolha_computador == "Pedra") or \
-         (escolha_jogador == "Tesoura" and escolha_computador == "Papel"):
-        print("Você venceu!")
+    # Verifica se todos os lados são iguais → triângulo equilátero
+    if distancia == distancia2 == distancia3:
+        print("O triângulo formado é EQUILÁTERO: todos os lados iguais.")
+    # Verifica se pelo menos dois lados são iguais → triângulo isósceles
+    elif distancia == distancia2 or distancia == distancia3 or distancia2 == distancia3:
+        print("O triângulo formado é ISÓSCELES: dois lados iguais.")
+    # Se não for equilátero nem isósceles, então é escaleno → todos os lados diferentes
     else:
-        print("O computador venceu!")
-    
+        print("O triângulo formado é ESCALENO: todos os lados diferentes.")
+
+# Se a condição para formar um triângulo não for satisfeita, informa o utilizador
+else:
+    print("\nNão é possível formar um triângulo com essas retas.\n")
