@@ -20,12 +20,12 @@ init(autoreset=True)
 while True:
     cls()
     ##############################################################
-
     # Exercício 46: Calcular a soma dos números pares de 6 a 100
+    ##############################################################
+    
     soma = sum(range(6, 101, 2))  # Começa em 6, vai até 100 (inclusive), com passo de 2
     print(Fore.GREEN + Style.BRIGHT + f"Resultado da soma dos números pares de 6 a 100: {soma}")
-
-    ##############################################################
+    
     # Pergunta para nova simulação
     novo = (
         input(Fore.MAGENTA + "\n🔁 Deseja simular novamente? (s/n): ").strip().lower()
