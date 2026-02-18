@@ -19,9 +19,8 @@ init(autoreset=True)
 
 while True:
     cls()
-    ##############################################################
 
-    ##############################################################
+
     # Pergunta para nova simulação
     novo = (
         input(Fore.MAGENTA + "\n🔁 Deseja simular novamente? (s/n): ").strip().lower()
