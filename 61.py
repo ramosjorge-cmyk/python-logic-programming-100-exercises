@@ -1,8 +1,9 @@
 import os
 import subprocess
 
-"""Exercício 
-
+"""Exercício 61
+61) Crie um programa que mostre na tela a seguinte contagem, usando a estrutura “faça enquanto”
+0 3 6 9 12 15 18 21 24 27 30 Acabou!
 """
 
 # ============================================================
@@ -15,11 +16,22 @@ def cls():
 
 from colorama import Fore, Style, init
 init(autoreset=True)
-
+import time
 
 while True:
     cls()
 
+    print(Fore.CYAN + Style.BRIGHT + "Contagem de 0 a 30 (de 3 em 3):\n")
+    # Contagem usando estrutura "faça enquanto"
+    
+    numero = 0
+
+    while numero <= 30:
+        print(numero, end=" ", flush=True)
+        time.sleep(0.3)   # atraso de 0.3 segundos entre cada número
+        numero += 3
+
+    print("\nAcabou!")
 
     # Pergunta para nova simulação
     novo = (

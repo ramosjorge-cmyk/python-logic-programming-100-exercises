@@ -1,8 +1,9 @@
 import os
 import subprocess
 
-"""Exercício 
-
+"""Exercício 65
+65) Desenvolva um programa usando a estrutura “para” que mostre na tela a seguinte contagem:
+100 90 80 70 60 50 40 30 20 10 0 Acabou!
 """
 
 # ============================================================
@@ -15,12 +16,21 @@ def cls():
 
 from colorama import Fore, Style, init
 init(autoreset=True)
-
+import time
 
 while True:
     cls()
 
+    print(Fore.CYAN + Style.BRIGHT + "Contagem regressiva de 100 a 0 (decremento de 10):\n")
+    
+    for i in range(100, -1, -10):
+        print(Fore.YELLOW + f"{i}", end=" ")
+        time.sleep(0.4)  # atraso de 0.3 segundos entre cada número
 
+    print(Fore.GREEN + "\nAcabou!")
+
+    time.sleep(3)  # pausa para o utilizador ver o resultado antes de perguntar sobre nova simulação
+    
     # Pergunta para nova simulação
     novo = (
         input(Fore.MAGENTA + "\n🔁 Deseja simular novamente? (s/n): ").strip().lower()
