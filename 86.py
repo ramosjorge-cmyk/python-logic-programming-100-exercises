@@ -1,8 +1,13 @@
 import os
 import subprocess
 
-"""Exercício 
-
+"""Exercício 86
+86) Crie um programa que tenha um procedimento Gerador() que, quando chamado,  
+mostre a mensagem "Olá, Mundo!" com algum componente visual (linhas) Ex: Ao 
+chamar Gerador() aparece:  
++-------=======------+  
+Olá, Mundo!   
++-------=======------+ 
 """
 
 # ============================================================
@@ -20,7 +25,13 @@ init(autoreset=True)
 while True:
     cls()
 
+# Procedimento Gerador
+    def Gerador(): # Gerador() é um procedimento que exibe a mensagem "Olá, Mundo!" com um componente visual.
+        print(Fore.GREEN + Style.BRIGHT + "+-------=======------+")
+        print(Fore.YELLOW + Style.BRIGHT + "      Olá, Mundo!")
+        print(Fore.GREEN + Style.BRIGHT + "+-------=======------+")
 
+    Gerador() # Chama o procedimento Gerador para exibir a mensagem formatada.
 
     # Pergunta para nova simulação
     novo = (
