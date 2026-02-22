@@ -1,11 +1,13 @@
 📘 INDEX.md — Catálogo de Exercícios / Exercise Index
 (Português + English)
+
 Cada entrada segue este formato:
 [01] Título PT  
      English Title  
      Tags: ...
 ________________________________________
 🧠 PASSO 01 — Sequências Básicas | Basic Sequences
+
 [01] Olá, Mundo!
      Hello World
      Tags: print, básico
@@ -47,6 +49,7 @@ ________________________________________
      Tags: float, arithmetic
 ________________________________________
 🧮 PASSO 02 — Condições Básicas | Basic Conditions
+
 [11] Cálculo do Delta
      Delta calculation
      Tags: math, float, arithmetic
@@ -108,6 +111,7 @@ ________________________________________
      Tags: float, geometry, conditions
 ________________________________________
 🔀 PASSO 03 — Condições Compostas | Compound Conditions
+
 [26] Comparação entre dois números
      Compare two numbers
      Tags: int, conditions
@@ -157,6 +161,7 @@ ________________________________________
      Tags: float, conditions
 ________________________________________
 🔁 PASSO 04 — Repetições ENQUANTO | While Loops
+
 [38] Contagem de 6 a 11
      Counting 6 to 11
      Tags: while, loop, int
@@ -230,6 +235,7 @@ ________________________________________
      Tags: random, loop, conditions
 ________________________________________
 🚩 PASSO 05 — ENQUANTO com FLAG | While with Flag
+
 [56] Soma até digitar 1111
      Sum until 1111 is entered
      Tags: while, flag, input
@@ -251,6 +257,7 @@ ________________________________________
      Tags: while, conditions
 ________________________________________
 🔄 PASSO 06 — FAÇA ENQUANTO | Do-While
+
 [61] Contagem 0 a 30 de 3 em 3
      Count 0 to 30 by 3
      Tags: do-while, loop
@@ -264,6 +271,7 @@ ________________________________________
      Tags: do-while, input, arithmetic
 ________________________________________
 🔁 PASSO 07 — PARA | For Loops
+
 [64] Contagem 0 a 40 de 5 em 5
      Count 0 to 40 by 5
      Tags: for, loop
@@ -293,6 +301,7 @@ ________________________________________
      Tags: for, fibonacci
 ________________________________________
 📦 PASSO 08 — Vetores | Arrays
+
 [71] Vetor automático (999)
      Auto-filled vector (999)
      Tags: list, fill
@@ -354,6 +363,7 @@ ________________________________________
      Tags: list, conditions
 ________________________________________
 🧩 PASSO 09 — Procedimentos | Procedures
+
 [86] Gerador com bordas simples
      Simple border generator
      Tags: procedure, print
@@ -391,6 +401,7 @@ ________________________________________
      Tags: procedure, fibonacci
 ________________________________________
 🧮 PASSO 10 — Funções | Functions
+
 [95] Função Somador
      Sum function
      Tags: function, arithmetic
