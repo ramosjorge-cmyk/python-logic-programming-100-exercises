@@ -2,6 +2,7 @@
 (Português + English)
 
 Cada entrada segue este formato:
+
 [01] Título PT  
      English Title  
      Tags: ...
@@ -427,3 +428,4 @@ ________________________________________
       Tags: function, conditions
 ________________________________________
 🎉 INDEX.md concluído!
+
