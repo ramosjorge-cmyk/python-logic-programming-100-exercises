@@ -40,7 +40,13 @@ Os ficheiros são numerados para facilitar a navegação e a prática.
 The files are numbered to make navigation and practice easier.
 
 ---
+## 📚 Lista Completa de Exercícios | Full Exercise List
 
+A lista completa dos 100 exercícios, com títulos bilingues e tags de pesquisa, está disponível aqui:
+
+👉 [INDEX.md](INDEX.md)
+
+---
 ## ▶️ Como Usar | How to Use
 
 ### Português
