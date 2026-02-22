@@ -1,3 +1,14 @@
+# ============================================
+# [21] Ano bissexto / Leap Year Check
+# Tags: int, conditions
+#
+# Descrição (PT):
+#   O exercício verifica se um ano é bissexto com base nas regras matemáticas apropriadas.
+#
+# Description (EN):
+#   The exercise checks whether a given year is a leap year using standard mathematical rules.
+# ============================================
+
 import os
 import subprocess
 

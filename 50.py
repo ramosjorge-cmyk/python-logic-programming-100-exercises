@@ -1,3 +1,14 @@
+# ============================================
+# [50] Sorteio de 20 números e análises / Random Numbers Analysis
+# Tags: random, list, loop
+#
+# Descrição (PT):
+#   O exercício sorteia 20 números e exibe quantos são maiores que 5 e quantos são divisíveis por 3. Trabalha listas e análise de dados.
+#
+# Description (EN):
+#   The exercise draws 20 random numbers and shows how many are above 5 and how many are divisible by 3. It reinforces lists and data analysis.
+# ============================================
+
 import os
 import subprocess
 from random import randint

@@ -1,3 +1,14 @@
+# ============================================
+# [26] Comparação entre dois números / Compare Two Numbers
+# Tags: int, conditions
+#
+# Descrição (PT):
+#   O programa lê dois números inteiros e determina qual é maior ou se são iguais. Trabalha comparação de valores e lógica condicional simples.
+#
+# Description (EN):
+#   The program reads two integers and determines which one is larger or if they are equal. It practices value comparison and basic conditional logic.
+# ============================================
+
 import os
 import subprocess
 

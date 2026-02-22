@@ -1,3 +1,14 @@
+# ============================================
+# [51] Maior e menor preço / Highest and Lowest Price
+# Tags: input, float, comparison
+#
+# Descrição (PT):
+#   O programa lê o preço de 8 produtos e identifica o maior e o menor valor digitado. Trabalha comparação contínua e análise de dados numéricos.
+#
+# Description (EN):
+#   The program reads the prices of 8 products and identifies the highest and lowest values. It practices continuous comparison and numeric analysis.
+# ============================================
+
 import os
 import subprocess
 

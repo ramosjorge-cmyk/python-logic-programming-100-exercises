@@ -1,3 +1,14 @@
+# ============================================
+# [74] Vetor alternado 5 e 3 / Alternating Vector 5 and 3
+# Tags: list, pattern
+#
+# Descrição (PT):
+#   O exercício preenche um vetor alternando 5 e 3. Trabalha padrões repetitivos.
+#
+# Description (EN):
+#   The exercise fills an array alternating between 5 and 3. It practices repetitive patterns.
+# ============================================
+
 import os
 import subprocess
 

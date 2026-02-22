@@ -1,3 +1,14 @@
+# ============================================
+# [09] Conversão de reais para dólares / Currency Conversion (BRL → USD)
+# Tags: float, arithmetic
+#
+# Descrição (PT):
+#   O exercício lê quanto dinheiro a pessoa tem em reais e calcula quantos dólares pode comprar, usando a taxa fixa indicada.
+#
+# Description (EN):
+#   The exercise reads an amount in BRL and converts it to USD using the fixed exchange rate provided. It practices arithmetic and financial reasoning.
+# ============================================
+
 import os
 import subprocess
 

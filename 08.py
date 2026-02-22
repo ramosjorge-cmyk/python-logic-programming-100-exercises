@@ -1,3 +1,14 @@
+# ============================================
+# [08] Conversão de metros / Meter Unit Conversion
+# Tags: float, arithmetic, conversion
+#
+# Descrição (PT):
+#   O programa lê uma distância em metros e converte para múltiplas unidades métricas. Trabalha conversões proporcionais e cálculos simples.
+#
+# Description (EN):
+#   The program reads a distance in meters and converts it into multiple metric units. It reinforces proportional calculations and unit conversion.
+# ============================================
+
 import os
 import subprocess
 

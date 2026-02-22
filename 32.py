@@ -1,3 +1,14 @@
+# ============================================
+# [32] Jogo de adivinhação (1–5) / Guessing Game (1–5)
+# Tags: random, conditions
+#
+# Descrição (PT):
+#   O computador sorteia um número entre 1 e 5 e o jogador tenta adivinhar. Trabalha aleatoriedade e interação simples.
+#
+# Description (EN):
+#   The computer picks a number between 1 and 5 and the player tries to guess it. It reinforces randomness and simple interaction.
+# ============================================
+
 import os
 import subprocess
 

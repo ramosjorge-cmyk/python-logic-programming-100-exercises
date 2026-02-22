@@ -1,3 +1,14 @@
+# ============================================
+# [37] Reajuste salarial por gênero / Salary Adjustment by Gender
+# Tags: float, conditions
+#
+# Descrição (PT):
+#   O programa aplica aumentos diferentes conforme género e tempo de empresa. Trabalha condições compostas e múltiplos critérios.
+#
+# Description (EN):
+#   The program applies salary raises based on gender and years of employment. It practices compound conditions and multi‑criteria logic.
+# ============================================
+
 import os
 import subprocess
 

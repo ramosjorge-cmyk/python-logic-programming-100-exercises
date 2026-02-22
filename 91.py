@@ -1,3 +1,14 @@
+# ============================================
+# [91] Procedimento Maior / Max Value Procedure
+# Tags: procedure, conditions
+#
+# Descrição (PT):
+#   O programa recebe dois valores e exibe qual é o maior, indicando se são iguais. Trabalha comparação e lógica condicional.
+#
+# Description (EN):
+#   The program receives two values and displays the larger one, indicating if they are equal. It reinforces comparison and conditional logic.
+# ============================================
+
 import os
 import subprocess
 

@@ -1,3 +1,14 @@
+# ============================================
+# [86] Gerador com bordas simples / Simple Border Generator
+# Tags: procedure, print
+#
+# Descrição (PT):
+#   O exercício cria um procedimento que exibe uma mensagem com bordas simples. Trabalha modularização e estética de saída.
+#
+# Description (EN):
+#   The exercise creates a procedure that prints a message with simple borders. It practices modularization and output formatting.
+# ============================================
+
 import os
 import subprocess
 

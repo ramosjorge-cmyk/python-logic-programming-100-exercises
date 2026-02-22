@@ -1,3 +1,14 @@
+# ============================================
+# [35] Aluguel de carro (popular/luxo) / Car Rental (Popular/Luxury)
+# Tags: float, conditions
+#
+# Descrição (PT):
+#   O programa calcula o custo do aluguel considerando tipo de carro, dias e quilometragem. Trabalha condições complexas e cálculos combinados.
+#
+# Description (EN):
+#   The program computes rental cost based on car type, rental days, and kilometers driven. It practices complex conditions and combined calculations.
+# ============================================
+
 import os
 import subprocess
 

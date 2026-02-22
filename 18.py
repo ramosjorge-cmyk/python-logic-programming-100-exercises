@@ -1,3 +1,14 @@
+# ============================================
+# [18] Pode votar? / Voting Eligibility
+# Tags: int, conditions
+#
+# Descrição (PT):
+#   O programa calcula a idade do utilizador e determina se ele pode votar. Trabalha condições simples.
+#
+# Description (EN):
+#   The program computes the user’s age and determines whether they are eligible to vote.
+# ============================================
+
 import os
 import subprocess
 

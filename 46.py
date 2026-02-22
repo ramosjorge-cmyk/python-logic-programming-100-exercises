@@ -1,3 +1,14 @@
+# ============================================
+# [46] Soma de pares de 6 a 100 / Sum of Even Numbers 6–100
+# Tags: while, arithmetic, loop
+#
+# Descrição (PT):
+#   O exercício soma todos os números pares entre 6 e 100. Trabalha filtragem por condição e acumulação.
+#
+# Description (EN):
+#   The exercise sums all even numbers between 6 and 100. It reinforces conditional filtering and accumulation.
+# ============================================
+
 import os
 import subprocess
 

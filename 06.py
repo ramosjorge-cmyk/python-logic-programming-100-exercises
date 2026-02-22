@@ -1,3 +1,14 @@
+# ============================================
+# [06] Antecessor e sucessor / Predecessor and Successor
+# Tags: int, arithmetic
+#
+# Descrição (PT):
+#   O programa lê um número inteiro e mostra o seu antecessor e sucessor. Trabalha operações simples com inteiros e lógica de valores adjacentes.
+#
+# Description (EN):
+#   The program reads an integer and displays its predecessor and successor. It reinforces integer manipulation and simple arithmetic reasoning.
+# ============================================
+
 import os
 import subprocess
 

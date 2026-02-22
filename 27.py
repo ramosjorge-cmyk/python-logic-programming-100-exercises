@@ -1,3 +1,14 @@
+# ============================================
+# [27] Média com classificação / Average with Classification
+# Tags: float, conditions
+#
+# Descrição (PT):
+#   O exercício calcula a média de duas notas e classifica o aluno conforme as faixas definidas. Trabalha condições compostas e interpretação de resultados.
+#
+# Description (EN):
+#   The exercise computes the average of two grades and classifies the student according to defined ranges. It reinforces compound conditions and result interpretation.
+# ============================================
+
 import os
 import subprocess
 

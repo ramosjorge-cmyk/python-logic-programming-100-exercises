@@ -1,3 +1,14 @@
+# ============================================
+# [28] Classificação de terreno / Land Size Classification
+# Tags: float, conditions
+#
+# Descrição (PT):
+#   O programa calcula a área de um terreno e o classifica como popular, master ou VIP. Trabalha operações geométricas e condições múltiplas.
+#
+# Description (EN):
+#   The program computes the area of a plot and classifies it as popular, master, or VIP. It practices geometric calculations and multi‑branch conditions.
+# ============================================
+
 import os
 import subprocess
 

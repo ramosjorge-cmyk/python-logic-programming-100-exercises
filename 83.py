@@ -1,3 +1,14 @@
+# ============================================
+# [83] Vetor aleatório e ordenação / Random Vector and Sorting
+# Tags: list, sort
+#
+# Descrição (PT):
+#   O programa gera 20 números aleatórios, exibe a lista original e depois a lista ordenada. Trabalha ordenação crescente.
+#
+# Description (EN):
+#   The program generates 20 random numbers, displays the original list, and then the sorted list. It reinforces sorting and array manipulation.
+# ============================================
+
 import os
 import subprocess
 

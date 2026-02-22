@@ -1,3 +1,14 @@
+# ============================================
+# [33] Aprovação de empréstimo / Loan Approval
+# Tags: float, conditions
+#
+# Descrição (PT):
+#   O programa calcula a prestação de um empréstimo e verifica se excede 30% do salário. Trabalha cálculos financeiros e tomada de decisão.
+#
+# Description (EN):
+#   The program computes a loan payment and checks whether it exceeds 30% of the salary. It practices financial calculations and decision making.
+# ============================================
+
 import os
 import subprocess
 

@@ -1,3 +1,14 @@
+# ============================================
+# [59] Estatísticas de idade e sexo / Age and Gender Statistics
+# Tags: while, conditions
+#
+# Descrição (PT):
+#   O exercício lê idade e sexo de várias pessoas e calcula maior idade, número de homens, mulher mais jovem e média dos homens.
+#
+# Description (EN):
+#   The exercise reads age and gender of multiple people and computes highest age, number of men, youngest woman, and men’s average age.
+# ============================================
+
 import os
 import subprocess
 

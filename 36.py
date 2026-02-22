@@ -1,3 +1,14 @@
+# ============================================
+# [36] Pontos por atividade física / Fitness Points
+# Tags: float, conditions
+#
+# Descrição (PT):
+#   O exercício calcula pontos por horas de atividade física e converte em dinheiro. Trabalha faixas de pontuação e cálculos progressivos.
+#
+# Description (EN):
+#   The exercise calculates points from physical activity hours and converts them into money. It reinforces tiered scoring and progressive calculations.
+# ============================================
+
 import os
 import subprocess
 

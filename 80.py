@@ -1,3 +1,14 @@
+# ============================================
+# [80] Busca de chave no vetor / Key Search in Vector
+# Tags: list, search
+#
+# Descrição (PT):
+#   O exercício preenche um vetor com 30 números aleatórios e procura todas as ocorrências de um valor digitado. Trabalha busca linear e contagem.
+#
+# Description (EN):
+#   The exercise fills an array with 30 random numbers and searches for all occurrences of a user‑provided value. It practices linear search and counting.
+# ============================================
+
 import os
 import subprocess
 

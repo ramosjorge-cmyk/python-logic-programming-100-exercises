@@ -1,3 +1,14 @@
+# ============================================
+# [88] Gerador repetindo mensagem / Repeated Message Generator
+# Tags: procedure, loop
+#
+# Descrição (PT):
+#   O exercício permite repetir a mensagem várias vezes conforme parâmetro. Trabalha repetição dentro de procedimentos.
+#
+# Description (EN):
+#   The exercise allows repeating the message multiple times based on a parameter. It practices loops inside procedures.
+# ============================================
+
 import os
 from random import random
 import subprocess

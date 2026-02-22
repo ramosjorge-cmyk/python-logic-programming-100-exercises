@@ -1,3 +1,14 @@
+# ============================================
+# [05] Média de duas notas / Average of Two Grades
+# Tags: input, float, arithmetic
+#
+# Descrição (PT):
+#   O exercício lê duas notas de um aluno e calcula a média aritmética. Trabalha operações com números decimais e apresentação de resultados formatados.
+#
+# Description (EN):
+#   The exercise reads two student grades and computes their average. It practices floating‑point arithmetic and formatted output.
+# ============================================
+
 import os
 import subprocess
 

@@ -1,3 +1,14 @@
+# ============================================
+# [82] Estatísticas de notas / Grade Statistics
+# Tags: list, arithmetic
+#
+# Descrição (PT):
+#   O exercício lê 10 notas e calcula média, quantidade acima da média, maior nota e suas posições. Trabalha análise de desempenho.
+#
+# Description (EN):
+#   The exercise reads 10 grades and computes class average, number above average, highest grade, and its positions. It practices performance analysis.
+# ============================================
+
 import os
 import subprocess
 

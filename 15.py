@@ -1,3 +1,14 @@
+# ============================================
+# [15] Salário por dias trabalhados / Salary by Worked Days
+# Tags: float, arithmetic
+#
+# Descrição (PT):
+#   O exercício calcula o salário mensal com base nos dias trabalhados, considerando horas diárias e valor por hora.
+#
+# Description (EN):
+#   The exercise computes monthly salary based on days worked, assuming fixed hours per day and hourly rate.
+# ============================================
+
 import os
 import subprocess
 

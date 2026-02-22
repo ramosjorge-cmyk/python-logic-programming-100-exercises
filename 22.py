@@ -1,3 +1,14 @@
+# ============================================
+# [22] Situação de alistamento / Military Enlistment Status
+# Tags: int, conditions
+#
+# Descrição (PT):
+#   O programa calcula a idade e determina se o utilizador deve se alistar, ainda vai se alistar ou já passou da idade.
+#
+# Description (EN):
+#   The program computes the user’s age and determines enlistment status based on age thresholds.
+# ============================================
+
 import os
 import subprocess
 

@@ -1,3 +1,14 @@
+# ============================================
+# [53] Estatísticas de idade e sexo / Age and Gender Statistics
+# Tags: input, loop, conditions
+#
+# Descrição (PT):
+#   O programa lê idade e sexo de 5 pessoas e calcula estatísticas como número de homens, número de mulheres e médias. Trabalha agrupamento condicional.
+#
+# Description (EN):
+#   The program reads age and gender of 5 people and computes statistics such as number of men, number of women, and averages. It practices conditional grouping.
+# ============================================
+
 import os
 import subprocess
 

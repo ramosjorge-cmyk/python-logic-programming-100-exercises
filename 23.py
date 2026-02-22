@@ -1,3 +1,14 @@
+# ============================================
+# [23] Desconto especial por sexo / Gender‑Based Discount
+# Tags: input, conditions, percentage
+#
+# Descrição (PT):
+#   O exercício aplica descontos diferentes conforme o sexo do cliente. Trabalha condições simples e porcentagens.
+#
+# Description (EN):
+#   The exercise applies different discounts based on customer gender. It practices simple conditions and percentages.
+# ============================================
+
 import os
 import subprocess
 

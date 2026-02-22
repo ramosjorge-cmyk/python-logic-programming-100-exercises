@@ -1,3 +1,14 @@
+# ============================================
+# [85] Funcionárias com salário > 5k / Female Employees Earning > 5k
+# Tags: list, conditions
+#
+# Descrição (PT):
+#   O programa lê nome, sexo e salário de 5 funcionários e exibe apenas as mulheres que ganham mais de 5 mil. Trabalha filtragem condicional.
+#
+# Description (EN):
+#   The program reads name, gender, and salary of 5 employees and displays only the women earning more than 5k. It reinforces conditional filtering.
+# ============================================
+
 import os
 import subprocess
 

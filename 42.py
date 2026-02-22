@@ -1,3 +1,14 @@
+# ============================================
+# [42] Contagem até valor digitado / Count Up to User Value
+# Tags: while, loop, input
+#
+# Descrição (PT):
+#   O exercício lê um número positivo e exibe uma contagem até esse valor. Trabalha repetição controlada pelo utilizador.
+#
+# Description (EN):
+#   The exercise reads a positive number and counts up to that value. It reinforces user‑controlled repetition.
+# ============================================
+
 import os
 import subprocess
 from time import time

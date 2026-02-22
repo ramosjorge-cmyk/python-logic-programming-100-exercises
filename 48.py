@@ -1,3 +1,14 @@
+# ============================================
+# [48] Soma de 7 números / Sum of 7 Integers
+# Tags: while, input, arithmetic
+#
+# Descrição (PT):
+#   O exercício lê 7 números inteiros e calcula o somatório total. Trabalha repetição fixa.
+#
+# Description (EN):
+#   The exercise reads 7 integers and computes their total sum. It reinforces fixed‑length loops.
+# ============================================
+
 import os
 import subprocess
 

@@ -1,3 +1,14 @@
+# ============================================
+# [96] Função Média / Average Function
+# Tags: function, arithmetic
+#
+# Descrição (PT):
+#   O exercício cria uma função que recebe duas notas e retorna a média. Trabalha encapsulamento de lógica.
+#
+# Description (EN):
+#   The exercise creates a function that receives two grades and returns their average. It practices logic encapsulation.
+# ============================================
+
 import os
 import subprocess
 

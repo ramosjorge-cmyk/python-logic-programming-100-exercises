@@ -1,3 +1,14 @@
+# ============================================
+# [100] Funções Média e Situação / Average and Status Functions
+# Tags: function, conditions
+#
+# Descrição (PT):
+#   O exercício define duas funções: uma calcula a média e outra determina a situação do aluno. Trabalha integração entre funções e lógica condicional.
+#
+# Description (EN):
+#   The exercise defines two functions: one computes the average and the other determines the student’s status. It practices function integration and conditional logic.
+# ============================================
+
 import os
 import subprocess
 

@@ -1,3 +1,14 @@
+# ============================================
+# [75] Vetor Fibonacci (15 termos) / Fibonacci Vector (15 Terms)
+# Tags: list, fibonacci
+#
+# Descrição (PT):
+#   O programa preenche um vetor com os primeiros 15 termos da sequência de Fibonacci. Trabalha geração iterativa.
+#
+# Description (EN):
+#   The program fills an array with the first 15 Fibonacci terms. It reinforces iterative generation.
+# ============================================
+
 import os
 import subprocess
 

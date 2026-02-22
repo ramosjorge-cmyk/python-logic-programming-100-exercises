@@ -1,3 +1,14 @@
+# ============================================
+# [30] Tipo de triângulo / Triangle Type
+# Tags: geometry, conditions
+#
+# Descrição (PT):
+#   O programa identifica se um triângulo é equilátero, isósceles ou escaleno após validar os lados. Trabalha lógica geométrica e condições múltiplas.
+#
+# Description (EN):
+#   The program identifies whether a triangle is equilateral, isosceles, or scalene after validating the sides. It practices geometric logic and multi‑branch conditions.
+# ============================================
+
 import os
 import subprocess
 

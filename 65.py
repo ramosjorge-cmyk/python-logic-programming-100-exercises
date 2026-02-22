@@ -1,3 +1,14 @@
+# ============================================
+# [65] Contagem regressiva 100 a 0 / Countdown 100 to 0
+# Tags: for, loop
+#
+# Descrição (PT):
+#   O programa mostra uma contagem regressiva de 100 até 0 usando para. Trabalha decremento controlado.
+#
+# Description (EN):
+#   The program displays a countdown from 100 to 0 using a for loop. It reinforces controlled decrement.
+# ============================================
+
 import os
 import subprocess
 

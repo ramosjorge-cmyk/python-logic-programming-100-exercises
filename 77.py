@@ -1,3 +1,14 @@
+# ============================================
+# [77] Vetor com nomes invertidos / Names in Reverse Order
+# Tags: list, strings
+#
+# Descrição (PT):
+#   O programa lê 7 nomes e exibe a lista em ordem inversa. Trabalha manipulação de vetores e inversão de ordem.
+#
+# Description (EN):
+#   The program reads 7 names and displays them in reverse order. It reinforces array manipulation and order inversion.
+# ============================================
+
 import os
 import subprocess
 

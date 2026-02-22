@@ -1,3 +1,14 @@
+# ============================================
+# [93] Procedimento Contador / Counter Procedure
+# Tags: procedure, loop
+#
+# Descrição (PT):
+#   O programa recebe início, fim e incremento e exibe a contagem correspondente. Trabalha parametrização de laços.
+#
+# Description (EN):
+#   The program receives start, end, and step values and displays the corresponding count. It reinforces loop parameterization.
+# ============================================
+
 import os
 import subprocess
 

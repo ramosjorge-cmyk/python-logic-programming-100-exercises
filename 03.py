@@ -1,3 +1,14 @@
+# ============================================
+# [03] Nome e salário formatado / Name and Salary Formatting
+# Tags: input, strings, formatting
+#
+# Descrição (PT):
+#   O exercício lê o nome e o salário de um funcionário e apresenta uma frase completa com esses dados. Trabalha formatação monetária e construção de mensagens claras.
+#
+# Description (EN):
+#   The exercise reads an employee’s name and salary, then prints a formatted sentence containing both. It practices monetary formatting and clear message construction.
+# ============================================
+
 import os
 import subprocess
 

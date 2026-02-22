@@ -1,3 +1,14 @@
+# ============================================
+# [87] Gerador com mensagem personalizada / Custom Message Generator
+# Tags: procedure, print
+#
+# Descrição (PT):
+#   O programa permite passar uma mensagem personalizada ao gerador. Trabalha procedimentos com parâmetros.
+#
+# Description (EN):
+#   The program allows passing a custom message to the generator. It reinforces procedures with parameters.
+# ============================================
+
 import os
 import subprocess
 

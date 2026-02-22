@@ -1,3 +1,14 @@
+# ============================================
+# [61] Contagem 0 a 30 de 3 em 3 / Count 0 to 30 by 3
+# Tags: do-while, loop
+#
+# Descrição (PT):
+#   O programa exibe uma contagem de 0 a 30 avançando de 3 em 3 usando faça‑enquanto. Trabalha repetição pós‑condição.
+#
+# Description (EN):
+#   The program displays a count from 0 to 30 stepping by 3 using a do‑while loop. It reinforces post‑condition repetition.
+# ============================================
+
 import os
 import subprocess
 

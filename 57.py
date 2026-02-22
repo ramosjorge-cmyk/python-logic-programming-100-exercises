@@ -1,3 +1,14 @@
+# ============================================
+# [57] Total de salários por sexo / Salary Totals by Gender
+# Tags: while, conditions, float
+#
+# Descrição (PT):
+#   O exercício lê salário e sexo de vários funcionários e acumula totais separados para homens e mulheres. Trabalha agrupamento condicional.
+#
+# Description (EN):
+#   The exercise reads salary and gender of multiple employees and accumulates totals for men and women. It practices conditional grouping.
+# ============================================
+
 import os
 import subprocess
 

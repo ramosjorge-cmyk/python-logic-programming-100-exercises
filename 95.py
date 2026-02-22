@@ -1,3 +1,14 @@
+# ============================================
+# [95] Função Somador / Sum Function
+# Tags: function, arithmetic
+#
+# Descrição (PT):
+#   O programa cria uma função que recebe dois valores e retorna a soma. Trabalha retorno de funções.
+#
+# Description (EN):
+#   The program creates a function that receives two values and returns their sum. It reinforces function returns.
+# ============================================
+
 import os
 import subprocess
 

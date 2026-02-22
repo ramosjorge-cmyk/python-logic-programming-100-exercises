@@ -1,3 +1,14 @@
+# ============================================
+# [94] Procedimento Fibonacci / Fibonacci Procedure
+# Tags: procedure, fibonacci
+#
+# Descrição (PT):
+#   O exercício recebe um número N e exibe os N primeiros termos da sequência de Fibonacci. Trabalha geração iterativa.
+#
+# Description (EN):
+#   The exercise receives a number N and displays the first N Fibonacci terms. It practices iterative generation.
+# ============================================
+
 import os
 import subprocess
 

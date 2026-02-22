@@ -1,3 +1,14 @@
+# ============================================
+# [90] Procedimento Somador / Sum Procedure
+# Tags: procedure, arithmetic
+#
+# Descrição (PT):
+#   O exercício cria um procedimento que recebe dois valores e exibe a soma. Trabalha modularização e operações básicas.
+#
+# Description (EN):
+#   The exercise creates a procedure that receives two values and displays their sum. It practices modularization and arithmetic.
+# ============================================
+
 import os
 import subprocess
 

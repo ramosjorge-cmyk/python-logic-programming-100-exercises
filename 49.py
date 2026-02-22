@@ -1,3 +1,14 @@
+# ============================================
+# [49] Contagem de pares e ímpares / Count Even and Odd Numbers
+# Tags: while, modulo, input
+#
+# Descrição (PT):
+#   O programa lê 6 números e conta quantos são pares e quantos são ímpares. Trabalha classificação numérica.
+#
+# Description (EN):
+#   The program reads 6 numbers and counts how many are even and how many are odd. It practices numeric classification.
+# ============================================
+
 import os
 import subprocess
 

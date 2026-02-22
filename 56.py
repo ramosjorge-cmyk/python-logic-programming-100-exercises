@@ -1,3 +1,14 @@
+# ============================================
+# [56] Soma até digitar 1111 / Sum Until 1111
+# Tags: while, flag, input
+#
+# Descrição (PT):
+#   O programa lê vários números e soma todos até que 1111 seja digitado. Trabalha laços com sentinela.
+#
+# Description (EN):
+#   The program reads numbers and sums them until 1111 is entered. It reinforces sentinel‑controlled loops.
+# ============================================
+
 import os
 import subprocess
 

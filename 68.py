@@ -1,3 +1,14 @@
+# ============================================
+# [68] Estatísticas de sexo e peso / Gender and Weight Statistics
+# Tags: for, conditions
+#
+# Descrição (PT):
+#   O exercício lê sexo e peso de 8 pessoas e calcula várias estatísticas. Trabalha análise condicional em vetores.
+#
+# Description (EN):
+#   The exercise reads gender and weight of 8 people and computes several statistics. It practices conditional analysis in loops.
+# ============================================
+
 import os
 import subprocess
 

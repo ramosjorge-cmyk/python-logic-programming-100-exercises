@@ -1,3 +1,14 @@
+# ============================================
+# [89] Gerador com escolha de borda / Border‑Style Generator
+# Tags: procedure, conditions
+#
+# Descrição (PT):
+#   O programa permite escolher entre três estilos de borda ao exibir a mensagem. Trabalha seleção condicional.
+#
+# Description (EN):
+#   The program allows choosing among three border styles when displaying the message. It reinforces conditional selection.
+# ============================================
+
 import os
 import subprocess
 

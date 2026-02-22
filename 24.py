@@ -1,3 +1,14 @@
+# ============================================
+# [24] Preço da passagem / Travel Fare Calculation
+# Tags: float, conditions
+#
+# Descrição (PT):
+#   O programa calcula o preço da passagem com base na distância, aplicando tarifas diferentes conforme o limite.
+#
+# Description (EN):
+#   The program computes travel fare based on distance, using different per‑kilometer rates depending on thresholds.
+# ============================================
+
 import os
 import subprocess
 

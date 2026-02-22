@@ -1,3 +1,14 @@
+# ============================================
+# [97] Função Maior (3 valores) / Max of Three Values
+# Tags: function, conditions
+#
+# Descrição (PT):
+#   O programa cria uma função que recebe três números e retorna o maior. Trabalha comparação múltipla.
+#
+# Description (EN):
+#   The program creates a function that receives three numbers and returns the largest. It reinforces multi‑value comparison.
+# ============================================
+
 import os
 import subprocess
 

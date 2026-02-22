@@ -1,3 +1,14 @@
+# ============================================
+# [76] Vetor com números aleatórios / Vector with Random Numbers
+# Tags: list, random
+#
+# Descrição (PT):
+#   O exercício gera automaticamente 7 números aleatórios e armazena num vetor, exibindo todos no final. Trabalha aleatoriedade e manipulação de vetores.
+#
+# Description (EN):
+#   The exercise generates 7 random numbers and stores them in an array, displaying them afterward. It practices randomness and array handling.
+# ============================================
+
 import os
 import subprocess
 

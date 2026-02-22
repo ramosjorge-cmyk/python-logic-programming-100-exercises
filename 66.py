@@ -1,3 +1,14 @@
+# ============================================
+# [66] Tabuada / Multiplication Table
+# Tags: for, arithmetic
+#
+# Descrição (PT):
+#   O exercício lê um número e exibe a sua tabuada completa. Trabalha laços contados e operações repetitivas.
+#
+# Description (EN):
+#   The exercise reads a number and displays its full multiplication table. It practices counted loops and repetitive arithmetic.
+# ============================================
+
 import os
 import subprocess
 

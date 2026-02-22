@@ -1,3 +1,14 @@
+# ============================================
+# [31] Jogo JoKenPo / Rock‑Paper‑Scissors
+# Tags: random, conditions
+#
+# Descrição (PT):
+#   O exercício implementa o jogo Pedra‑Papel‑Tesoura com escolha aleatória do computador. Trabalha aleatoriedade e comparação de regras.
+#
+# Description (EN):
+#   The exercise implements the Rock‑Paper‑Scissors game with a random computer choice. It practices randomness and rule comparison.
+# ============================================
+
 import os
 import subprocess
 

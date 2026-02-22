@@ -1,3 +1,14 @@
+# ============================================
+# [71] Vetor automático (999) / Auto‑Filled Vector (999)
+# Tags: list, fill
+#
+# Descrição (PT):
+#   O programa preenche um vetor de 8 posições com o valor 999. Trabalha inicialização de vetores.
+#
+# Description (EN):
+#   The program fills an 8‑position array with the value 999. It reinforces array initialization.
+# ============================================
+
 import os
 import subprocess
 

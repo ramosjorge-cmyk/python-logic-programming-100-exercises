@@ -1,3 +1,14 @@
+# ============================================
+# [73] Vetor decrescente 9 a 0 / Descending Vector 9 to 0
+# Tags: list, reverse
+#
+# Descrição (PT):
+#   O programa preenche um vetor com valores de 9 a 0 em ordem decrescente. Trabalha lógica reversa.
+#
+# Description (EN):
+#   The program fills an array with values from 9 to 0 in descending order. It reinforces reverse logic.
+# ============================================
+
 import os
 import subprocess
 

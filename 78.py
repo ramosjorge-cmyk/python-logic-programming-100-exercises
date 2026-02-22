@@ -1,3 +1,14 @@
+# ============================================
+# [78] Vetor com 15 números e múltiplos de 10 / Vector and Multiples of 10
+# Tags: list, modulo
+#
+# Descrição (PT):
+#   O exercício lê 15 números e identifica quais são múltiplos de 10 e em que posições aparecem. Trabalha análise posicional e filtragem.
+#
+# Description (EN):
+#   The exercise reads 15 numbers and identifies which are multiples of 10 and their positions. It practices positional analysis and conditional filtering.
+# ============================================
+
 import os
 import subprocess
 

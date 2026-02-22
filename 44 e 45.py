@@ -1,3 +1,25 @@
+# ============================================
+# [44] Contagem com início, fim e incremento / Count with Start, End, Step
+# Tags: while, loop, input
+#
+# Descrição (PT):
+#   O exercício lê início, fim e incremento e exibe a contagem correspondente. Trabalha repetição parametrizada.
+#
+# Description (EN):
+#   The exercise reads start, end, and step values and displays the resulting count. It reinforces parameterized loops.
+# ============================================
+
+# ============================================
+# [45] Contagem adaptada para qualquer ordem / Flexible Counting (Any Direction)
+# Tags: while, loop, conditions
+#
+# Descrição (PT):
+#   O programa adapta a contagem para funcionar em ordem crescente ou decrescente. Trabalha lógica condicional aplicada a laços.
+#
+# Description (EN):
+#   The program adapts counting to work in ascending or descending order. It practices conditional logic applied to loops.
+# ============================================
+
 import os
 import subprocess
 

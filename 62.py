@@ -1,3 +1,14 @@
+# ============================================
+# [62] Idades com faça‑enquanto e estatísticas / Ages with Do‑While and Statistics
+# Tags: do-while, input
+#
+# Descrição (PT):
+#   O exercício lê idades até o utilizador parar e calcula quantidade, média e quantos têm 21 anos ou mais. Trabalha repetição controlada.
+#
+# Description (EN):
+#   The exercise reads ages until the user stops and computes count, average, and how many are 21 or older. It practices user‑controlled loops.
+# ============================================
+
 import os
 import subprocess
 

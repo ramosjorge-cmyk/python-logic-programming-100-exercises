@@ -1,3 +1,14 @@
+# ============================================
+# [07] Dobro e terça parte / Double and One‑Third
+# Tags: float, arithmetic
+#
+# Descrição (PT):
+#   O exercício lê um número real e calcula o seu dobro e a sua terça parte. Trabalha operações com decimais e precisão numérica.
+#
+# Description (EN):
+#   The exercise reads a real number and computes its double and one‑third. It practices floating‑point arithmetic and numeric precision.
+# ============================================
+
 import os
 import subprocess
 

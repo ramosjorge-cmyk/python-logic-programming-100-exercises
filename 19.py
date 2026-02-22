@@ -1,3 +1,14 @@
+# ============================================
+# [19] Média e aproveitamento / Grade Average and Evaluation
+# Tags: float, conditions
+#
+# Descrição (PT):
+#   O exercício calcula a média de duas notas e avalia se o aluno teve bom aproveitamento.
+#
+# Description (EN):
+#   The exercise computes the average of two grades and evaluates performance based on the result.
+# ============================================
+
 import os
 import subprocess
 

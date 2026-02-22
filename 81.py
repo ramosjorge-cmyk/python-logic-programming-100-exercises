@@ -1,3 +1,14 @@
+# ============================================
+# [81] Estatísticas de idades / Age Statistics
+# Tags: list, arithmetic
+#
+# Descrição (PT):
+#   O programa lê a idade de 8 pessoas e calcula média, posições com mais de 25 anos, maior idade e suas posições. Trabalha estatística em vetores.
+#
+# Description (EN):
+#   The program reads the ages of 8 people and computes the average, positions with ages over 25, highest age, and its positions. It reinforces statistical analysis.
+# ============================================
+
 import os
 import subprocess
 

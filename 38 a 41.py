@@ -1,3 +1,47 @@
+# ============================================
+# [38] Contagem de 6 a 11 / Counting 6 to 11
+# Tags: while, loop, int
+#
+# Descrição (PT):
+#   O exercício exibe uma contagem crescente de 6 a 11 usando um laço enquanto. Trabalha repetição simples.
+#
+# Description (EN):
+#   The exercise displays a count from 6 to 11 using a while loop. It reinforces simple repetition.
+# ============================================
+
+# ============================================
+# [39] Contagem regressiva de 10 a 3 / Countdown 10 to 3
+# Tags: while, loop
+#
+# Descrição (PT):
+#   O programa mostra uma contagem regressiva de 10 até 3. Trabalha decremento em laços.
+#
+# Description (EN):
+#   The program displays a countdown from 10 to 3. It practices decrement loops.
+# ============================================
+
+# ============================================
+# [40] Contagem de 0 a 18 de 3 em 3 / Count 0 to 18 by 3
+# Tags: while, loop, step
+#
+# Descrição (PT):
+#   O exercício exibe uma contagem de 0 a 18 avançando de 3 em 3. Trabalha incrementos personalizados.
+#
+# Description (EN):
+#   The exercise displays a count from 0 to 18 stepping by 3. It reinforces custom step control.
+# ============================================
+
+# ============================================
+# [41] Contagem de 100 a 0 de 5 em 5 / Count 100 to 0 by 5
+# Tags: while, loop, step
+#
+# Descrição (PT):
+#   O programa mostra uma contagem regressiva de 100 a 0 diminuindo de 5 em 5. Trabalha decrementos personalizados.
+#
+# Description (EN):
+#   The program displays a countdown from 100 to 0 decreasing by 5. It practices custom decrement loops.
+# ============================================
+
 import os
 import subprocess
 

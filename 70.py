@@ -1,3 +1,14 @@
+# ============================================
+# [70] Sequência de Fibonacci / Fibonacci Sequence
+# Tags: for, fibonacci
+#
+# Descrição (PT):
+#   O exercício mostra os 10 primeiros termos da sequência de Fibonacci. Trabalha geração iterativa.
+#
+# Description (EN):
+#   The exercise displays the first 10 Fibonacci terms. It practices iterative sequence generation.
+# ============================================
+
 import os
 import subprocess
 

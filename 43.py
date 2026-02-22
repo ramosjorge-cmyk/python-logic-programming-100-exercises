@@ -1,3 +1,14 @@
+# ============================================
+# [43] Contagem regressiva marcando divisíveis por 4 / Countdown Marking Multiples of 4
+# Tags: while, modulo, loop
+#
+# Descrição (PT):
+#   O programa faz contagem regressiva de 30 a 1 destacando números divisíveis por 4. Trabalha uso do operador módulo.
+#
+# Description (EN):
+#   The program performs a countdown from 30 to 1 marking numbers divisible by 4. It practices modulo operations.
+# ============================================
+
 import os
 import subprocess
 

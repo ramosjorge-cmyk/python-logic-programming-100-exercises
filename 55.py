@@ -1,3 +1,14 @@
+# ============================================
+# [55] Jogo de adivinhação com tentativas / Guessing Game with Attempts
+# Tags: random, loop, conditions
+#
+# Descrição (PT):
+#   O computador sorteia um número entre 1 e 10 e o jogador tem 4 tentativas para acertar. Trabalha controle de tentativas e aleatoriedade.
+#
+# Description (EN):
+#   The computer picks a number between 1 and 10 and the player has 4 attempts to guess it. It practices attempt control and randomness.
+# ============================================
+
 import os
 import subprocess
 

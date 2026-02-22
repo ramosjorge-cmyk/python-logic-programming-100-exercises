@@ -1,3 +1,14 @@
+# ============================================
+# [60] Estatísticas completas de pessoas / Full People Statistics
+# Tags: while, conditions
+#
+# Descrição (PT):
+#   O programa lê nome, idade e sexo e determina pessoa mais velha, mulher mais jovem, média geral e outras contagens. Trabalha múltiplos critérios.
+#
+# Description (EN):
+#   The program reads name, age, and gender and determines the oldest person, youngest woman, overall average, and other counts. It reinforces multi‑criteria evaluation.
+# ============================================
+
 import os
 import subprocess
 

@@ -1,3 +1,14 @@
+# ============================================
+# [79] Vetor com pares e posições / Even Numbers and Positions
+# Tags: list, modulo
+#
+# Descrição (PT):
+#   O programa lê 10 números e mostra quais são pares e em que posições estão. Trabalha classificação numérica e indexação.
+#
+# Description (EN):
+#   The program reads 10 numbers and displays which are even and their positions. It reinforces numeric classification and indexing.
+# ============================================
+
 import os
 import subprocess
 

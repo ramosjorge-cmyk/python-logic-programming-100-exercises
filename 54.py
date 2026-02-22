@@ -1,3 +1,14 @@
+# ============================================
+# [54] Estatísticas de peso e altura / Weight and Height Statistics
+# Tags: input, loop, conditions
+#
+# Descrição (PT):
+#   O exercício lê peso e altura de 7 pessoas e calcula média de altura e várias contagens baseadas em critérios. Trabalha múltiplas condições simultâneas.
+#
+# Description (EN):
+#   The exercise reads weight and height of 7 people and computes average height and several conditional counts. It reinforces multi‑criteria analysis.
+# ============================================
+
 import os
 import subprocess
 

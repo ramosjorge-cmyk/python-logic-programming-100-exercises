@@ -1,3 +1,14 @@
+# ============================================
+# [16] Redução do tempo de vida do fumante / Smoker Life Reduction
+# Tags: arithmetic, health, conversion
+#
+# Descrição (PT):
+#   O programa calcula quantos dias de vida um fumante perde com base nos cigarros fumados e anos de hábito.
+#
+# Description (EN):
+#   The program estimates how many days of life a smoker loses based on cigarettes per day and years smoked.
+# ============================================
+
 import os
 import subprocess
 

@@ -1,3 +1,14 @@
+# ============================================
+# [67] Contagem até valor digitado / Count Up to User Value
+# Tags: for, loop
+#
+# Descrição (PT):
+#   O programa lê um número inteiro positivo e exibe contagem de 0 até ele. Trabalha repetição controlada pelo utilizador.
+#
+# Description (EN):
+#   The program reads a positive integer and counts from 0 up to it. It reinforces user‑driven loop limits.
+# ============================================
+
 import os
 import subprocess
 

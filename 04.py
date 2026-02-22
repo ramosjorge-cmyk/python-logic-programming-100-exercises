@@ -1,3 +1,14 @@
+# ============================================
+# [04] Soma de dois números inteiros / Sum of Two Integers
+# Tags: input, int, arithmetic
+#
+# Descrição (PT):
+#   O programa lê dois números inteiros e calcula o somatório entre eles. Trabalha operações aritméticas básicas e leitura de valores numéricos.
+#
+# Description (EN):
+#   The program reads two integers and computes their sum, displaying the result. It reinforces numeric input handling and basic arithmetic operations.
+# ============================================
+
 import os
 import subprocess
 

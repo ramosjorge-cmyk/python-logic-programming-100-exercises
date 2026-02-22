@@ -1,3 +1,14 @@
+# ============================================
+# [99] Função Potência / Power Function
+# Tags: function, arithmetic
+#
+# Descrição (PT):
+#   O programa cria uma função que calcula a exponenciação com base e expoente. Trabalha operações matemáticas.
+#
+# Description (EN):
+#   The program creates a function that calculates exponentiation using base and exponent. It reinforces mathematical operations.
+# ============================================
+
 import os
 import subprocess
 

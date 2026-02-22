@@ -1,3 +1,14 @@
+# ============================================
+# [13] Novo salário com aumento / Salary Increase
+# Tags: float, percentage
+#
+# Descrição (PT):
+#   O exercício lê o salário atual e calcula o novo salário com aumento de 15%. Trabalha porcentagens e atualização de valores financeiros.
+#
+# Description (EN):
+#   The exercise reads the current salary and applies a 15% raise. It practices percentage manipulation and financial computation.
+# ============================================
+
 import os
 import subprocess
 

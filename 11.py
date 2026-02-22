@@ -1,3 +1,14 @@
+# ============================================
+# [11] Cálculo do Delta / Delta Calculation
+# Tags: math, float, arithmetic
+#
+# Descrição (PT):
+#   O exercício lê os coeficientes de uma equação do 2.º grau e calcula o valor de delta. Trabalha fórmulas matemáticas e manipulação de floats.
+#
+# Description (EN):
+#   The exercise reads the coefficients of a quadratic equation and computes the discriminant (delta). It practices formula application and numeric handling.
+# ============================================
+
 import os
 import subprocess
 

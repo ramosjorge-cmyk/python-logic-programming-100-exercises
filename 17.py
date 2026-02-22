@@ -1,3 +1,14 @@
+# ============================================
+# [17] Multa por velocidade / Speeding Fine
+# Tags: int, conditions
+#
+# Descrição (PT):
+#   O exercício verifica se a velocidade ultrapassa 80 km/h e calcula a multa por km excedido.
+#
+# Description (EN):
+#   The exercise checks whether the speed exceeds 80 km/h and calculates a fine per excess kilometer.
+# ============================================
+
 import os
 import subprocess
 

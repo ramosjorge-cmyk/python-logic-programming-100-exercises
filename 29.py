@@ -1,3 +1,14 @@
+# ============================================
+# [29] Reajuste salarial por tempo / Salary Adjustment by Years
+# Tags: float, conditions, percentage
+#
+# Descrição (PT):
+#   O exercício aplica um aumento salarial baseado nos anos de empresa. Trabalha condições encadeadas e cálculos percentuais.
+#
+# Description (EN):
+#   The exercise applies a salary raise based on years of employment. It reinforces chained conditions and percentage calculations.
+# ============================================
+
 import os
 import subprocess
 

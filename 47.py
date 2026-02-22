@@ -1,3 +1,14 @@
+# ============================================
+# [47] Soma decrescente 500 a 0 / Descending Sum 500–0
+# Tags: while, arithmetic, loop
+#
+# Descrição (PT):
+#   O programa calcula a soma de uma sequência decrescente de 500 até 0. Trabalha repetição com decremento.
+#
+# Description (EN):
+#   The program computes the sum of a descending sequence from 500 to 0. It practices decrement loops and accumulation.
+# ============================================
+
 import os
 import subprocess
 

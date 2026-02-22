@@ -1,3 +1,14 @@
+# ============================================
+# [52] Estatísticas de idade (10 pessoas) / Age Statistics (10 People)
+# Tags: input, loop, arithmetic
+#
+# Descrição (PT):
+#   O exercício lê a idade de 10 pessoas e calcula média, quantidade acima de 18, quantidade abaixo de 5 e a maior idade. Trabalha estatísticas básicas.
+#
+# Description (EN):
+#   The exercise reads the ages of 10 people and computes the average, how many are over 18, how many are under 5, and the highest age. It reinforces basic statistics.
+# ============================================
+
 import os
 import subprocess
 

@@ -1,3 +1,14 @@
+# ============================================
+# [69] Progressão aritmética / Arithmetic Progression
+# Tags: for, arithmetic
+#
+# Descrição (PT):
+#   O programa lê primeiro termo e razão e exibe 10 elementos da PA e a soma total. Trabalha sequências numéricas.
+#
+# Description (EN):
+#   The program reads the first term and common difference and displays 10 AP terms and their sum. It reinforces numeric sequences.
+# ============================================
+
 import os
 import subprocess
 

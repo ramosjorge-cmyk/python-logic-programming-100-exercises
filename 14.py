@@ -1,3 +1,14 @@
+# ============================================
+# [14] Custo de aluguel de carro / Car Rental Cost
+# Tags: float, arithmetic, conditions
+#
+# Descrição (PT):
+#   O programa lê dias alugados e quilometragem percorrida, calculando o custo total com base nas tarifas fixas.
+#
+# Description (EN):
+#   The program reads rental days and kilometers driven, then computes the total cost using fixed daily and per‑kilometer rates.
+# ============================================
+
 import os
 import subprocess
 

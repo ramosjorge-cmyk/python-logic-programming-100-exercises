@@ -1,3 +1,14 @@
+# ============================================
+# [02] Saudação personalizada / Personalized Greeting
+# Tags: input, strings, print
+#
+# Descrição (PT):
+#   O programa lê o nome do utilizador e exibe uma mensagem personalizada de boas‑vindas. Trabalha leitura de dados, manipulação simples de strings e saída formatada.
+#
+# Description (EN):
+#   The program reads the user’s name and displays a personalized welcome message. It practices input handling, basic string manipulation, and formatted output.
+# ============================================
+
 import os
 import subprocess
 

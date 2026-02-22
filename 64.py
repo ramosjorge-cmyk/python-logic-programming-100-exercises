@@ -1,3 +1,14 @@
+# ============================================
+# [64] Contagem 0 a 40 de 5 em 5 / Count 0 to 40 by 5
+# Tags: for, loop
+#
+# Descrição (PT):
+#   O exercício exibe uma contagem de 0 a 40 avançando de 5 em 5 usando para. Trabalha incrementos fixos.
+#
+# Description (EN):
+#   The exercise displays a count from 0 to 40 stepping by 5 using a for loop. It practices fixed‑step repetition.
+# ============================================
+
 import os
 import subprocess
 

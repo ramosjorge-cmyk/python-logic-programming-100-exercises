@@ -1,3 +1,14 @@
+# ============================================
+# [63] Números com faça‑enquanto e análises / Numbers with Do‑While and Analysis
+# Tags: do-while, input, arithmetic
+#
+# Descrição (PT):
+#   O programa lê vários números e mostra soma, menor valor, média e quantidade de pares. Trabalha análise numérica.
+#
+# Description (EN):
+#   The program reads several numbers and displays the sum, smallest value, average, and count of even numbers. It reinforces numeric analysis.
+# ============================================
+
 import os
 import subprocess
 

@@ -1,3 +1,14 @@
+# ============================================
+# [98] Função SuperSomador / Interval Sum Function
+# Tags: function, loop
+#
+# Descrição (PT):
+#   O exercício cria uma função que soma todos os valores no intervalo entre dois números. Trabalha laços e acumulação.
+#
+# Description (EN):
+#   The exercise creates a function that sums all values in the interval between two numbers. It practices loops and accumulation.
+# ============================================
+
 import os
 import subprocess
 

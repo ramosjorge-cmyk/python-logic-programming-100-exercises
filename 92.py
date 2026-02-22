@@ -1,3 +1,14 @@
+# ============================================
+# [92] Procedimento ParOuImpar / EvenOrOdd Procedure
+# Tags: procedure, modulo
+#
+# Descrição (PT):
+#   O exercício recebe um número inteiro e indica se é par ou ímpar. Trabalha modularização e operador módulo.
+#
+# Description (EN):
+#   The exercise receives an integer and indicates whether it is even or odd. It practices modularization and modulo operations.
+# ============================================
+
 import os
 import subprocess
 

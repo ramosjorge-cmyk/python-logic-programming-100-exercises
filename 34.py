@@ -1,3 +1,14 @@
+# ============================================
+# [34] Cálculo do IMC / BMI Calculation
+# Tags: float, health, conditions
+#
+# Descrição (PT):
+#   O exercício calcula o IMC e classifica o resultado em faixas como peso ideal ou obesidade. Trabalha fórmulas e condições múltiplas.
+#
+# Description (EN):
+#   The exercise computes BMI and classifies the result into categories such as ideal weight or obesity. It reinforces formulas and multi‑branch conditions.
+# ============================================
+
 import os
 import subprocess
 

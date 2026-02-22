@@ -1,3 +1,14 @@
+# ============================================
+# [84] Vetores paralelos (nome e idade) / Parallel Arrays (Name and Age)
+# Tags: list, parallel
+#
+# Descrição (PT):
+#   O exercício lê nome e idade de 9 pessoas e exibe apenas os menores de idade. Trabalha vetores paralelos e filtragem.
+#
+# Description (EN):
+#   The exercise reads name and age of 9 people and displays only those who are minors. It practices parallel arrays and filtering.
+# ============================================
+
 import os
 import subprocess
 

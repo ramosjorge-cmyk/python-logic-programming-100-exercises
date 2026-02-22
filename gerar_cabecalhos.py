@@ -1,0 +1,881 @@
+import os
+
+exercicios = [
+    (
+        1,
+        "Olá, Mundo!",
+        "Hello World",
+        "print, básico",
+        "Primeiro exercício introdutório. O objetivo é exibir uma mensagem simples no ecrã, praticando a execução básica de um programa Python e o uso do comando print.",
+        "First introductory exercise. The goal is to display a simple message on the screen, practicing basic Python execution and the use of the print command.",
+    ),
+    (
+        2,
+        "Saudação personalizada",
+        "Personalized Greeting",
+        "input, strings, print",
+        "O programa lê o nome do utilizador e exibe uma mensagem personalizada de boas‑vindas. Trabalha leitura de dados, manipulação simples de strings e saída formatada.",
+        "The program reads the user’s name and displays a personalized welcome message. It practices input handling, basic string manipulation, and formatted output.",
+    ),
+    (
+        3,
+        "Nome e salário formatado",
+        "Name and Salary Formatting",
+        "input, strings, formatting",
+        "O exercício lê o nome e o salário de um funcionário e apresenta uma frase completa com esses dados. Trabalha formatação monetária e construção de mensagens claras.",
+        "The exercise reads an employee’s name and salary, then prints a formatted sentence containing both. It practices monetary formatting and clear message construction.",
+    ),
+    (
+        4,
+        "Soma de dois números inteiros",
+        "Sum of Two Integers",
+        "input, int, arithmetic",
+        "O programa lê dois números inteiros e calcula o somatório entre eles. Trabalha operações aritméticas básicas e leitura de valores numéricos.",
+        "The program reads two integers and computes their sum, displaying the result. It reinforces numeric input handling and basic arithmetic operations.",
+    ),
+    (
+        5,
+        "Média de duas notas",
+        "Average of Two Grades",
+        "input, float, arithmetic",
+        "O exercício lê duas notas de um aluno e calcula a média aritmética. Trabalha operações com números decimais e apresentação de resultados formatados.",
+        "The exercise reads two student grades and computes their average. It practices floating‑point arithmetic and formatted output.",
+    ),
+    (
+        6,
+        "Antecessor e sucessor",
+        "Predecessor and Successor",
+        "int, arithmetic",
+        "O programa lê um número inteiro e mostra o seu antecessor e sucessor. Trabalha operações simples com inteiros e lógica de valores adjacentes.",
+        "The program reads an integer and displays its predecessor and successor. It reinforces integer manipulation and simple arithmetic reasoning.",
+    ),
+    (
+        7,
+        "Dobro e terça parte",
+        "Double and One‑Third",
+        "float, arithmetic",
+        "O exercício lê um número real e calcula o seu dobro e a sua terça parte. Trabalha operações com decimais e precisão numérica.",
+        "The exercise reads a real number and computes its double and one‑third. It practices floating‑point arithmetic and numeric precision.",
+    ),
+    (
+        8,
+        "Conversão de metros",
+        "Meter Unit Conversion",
+        "float, arithmetic, conversion",
+        "O programa lê uma distância em metros e converte para múltiplas unidades métricas. Trabalha conversões proporcionais e cálculos simples.",
+        "The program reads a distance in meters and converts it into multiple metric units. It reinforces proportional calculations and unit conversion.",
+    ),
+    (
+        9,
+        "Conversão de reais para dólares",
+        "Currency Conversion (BRL → USD)",
+        "float, arithmetic",
+        "O exercício lê quanto dinheiro a pessoa tem em reais e calcula quantos dólares pode comprar, usando a taxa fixa indicada.",
+        "The exercise reads an amount in BRL and converts it to USD using the fixed exchange rate provided. It practices arithmetic and financial reasoning.",
+    ),
+    (
+        10,
+        "Área da parede e tinta necessária",
+        "Wall Area and Paint Needed",
+        "float, arithmetic",
+        "O programa lê largura e altura de uma parede, calcula a área e determina a quantidade de tinta necessária, considerando a taxa de cobertura.",
+        "The program reads wall dimensions, computes the area, and determines the amount of paint needed based on a fixed coverage rate.",
+    ),
+    (
+        11,
+        "Cálculo do Delta",
+        "Delta Calculation",
+        "math, float, arithmetic",
+        "O exercício lê os coeficientes de uma equação do 2.º grau e calcula o valor de delta. Trabalha fórmulas matemáticas e manipulação de floats.",
+        "The exercise reads the coefficients of a quadratic equation and computes the discriminant (delta). It practices formula application and numeric handling.",
+    ),
+    (
+        12,
+        "Preço com desconto",
+        "Discounted Price",
+        "float, arithmetic, percentage",
+        "O programa lê o preço de um produto e aplica um desconto de 5%, exibindo o valor final. Trabalha porcentagens e cálculos comerciais simples.",
+        "The program reads a product price and applies a 5% discount. It reinforces percentage calculations and basic commercial logic.",
+    ),
+    (
+        13,
+        "Novo salário com aumento",
+        "Salary Increase",
+        "float, percentage",
+        "O exercício lê o salário atual e calcula o novo salário com aumento de 15%. Trabalha porcentagens e atualização de valores financeiros.",
+        "The exercise reads the current salary and applies a 15% raise. It practices percentage manipulation and financial computation.",
+    ),
+    (
+        14,
+        "Custo de aluguel de carro",
+        "Car Rental Cost",
+        "float, arithmetic, conditions",
+        "O programa lê dias alugados e quilometragem percorrida, calculando o custo total com base nas tarifas fixas.",
+        "The program reads rental days and kilometers driven, then computes the total cost using fixed daily and per‑kilometer rates.",
+    ),
+    (
+        15,
+        "Salário por dias trabalhados",
+        "Salary by Worked Days",
+        "float, arithmetic",
+        "O exercício calcula o salário mensal com base nos dias trabalhados, considerando horas diárias e valor por hora.",
+        "The exercise computes monthly salary based on days worked, assuming fixed hours per day and hourly rate.",
+    ),
+    (
+        16,
+        "Redução do tempo de vida do fumante",
+        "Smoker Life Reduction",
+        "arithmetic, health, conversion",
+        "O programa calcula quantos dias de vida um fumante perde com base nos cigarros fumados e anos de hábito.",
+        "The program estimates how many days of life a smoker loses based on cigarettes per day and years smoked.",
+    ),
+    (
+        17,
+        "Multa por velocidade",
+        "Speeding Fine",
+        "int, conditions",
+        "O exercício verifica se a velocidade ultrapassa 80 km/h e calcula a multa por km excedido.",
+        "The exercise checks whether the speed exceeds 80 km/h and calculates a fine per excess kilometer.",
+    ),
+    (
+        18,
+        "Pode votar?",
+        "Voting Eligibility",
+        "int, conditions",
+        "O programa calcula a idade do utilizador e determina se ele pode votar. Trabalha condições simples.",
+        "The program computes the user’s age and determines whether they are eligible to vote.",
+    ),
+    (
+        19,
+        "Média e aproveitamento",
+        "Grade Average and Evaluation",
+        "float, conditions",
+        "O exercício calcula a média de duas notas e avalia se o aluno teve bom aproveitamento.",
+        "The exercise computes the average of two grades and evaluates performance based on the result.",
+    ),
+    (
+        20,
+        "Par ou ímpar",
+        "Even or Odd",
+        "int, modulo, conditions",
+        "O programa lê um número inteiro e determina se é par ou ímpar usando o operador módulo.",
+        "The program reads an integer and determines whether it is even or odd using the modulo operator.",
+    ),
+    (
+        21,
+        "Ano bissexto",
+        "Leap Year Check",
+        "int, conditions",
+        "O exercício verifica se um ano é bissexto com base nas regras matemáticas apropriadas.",
+        "The exercise checks whether a given year is a leap year using standard mathematical rules.",
+    ),
+    (
+        22,
+        "Situação de alistamento",
+        "Military Enlistment Status",
+        "int, conditions",
+        "O programa calcula a idade e determina se o utilizador deve se alistar, ainda vai se alistar ou já passou da idade.",
+        "The program computes the user’s age and determines enlistment status based on age thresholds.",
+    ),
+    (
+        23,
+        "Desconto especial por sexo",
+        "Gender‑Based Discount",
+        "input, conditions, percentage",
+        "O exercício aplica descontos diferentes conforme o sexo do cliente. Trabalha condições simples e porcentagens.",
+        "The exercise applies different discounts based on customer gender. It practices simple conditions and percentages.",
+    ),
+    (
+        24,
+        "Preço da passagem",
+        "Travel Fare Calculation",
+        "float, conditions",
+        "O programa calcula o preço da passagem com base na distância, aplicando tarifas diferentes conforme o limite.",
+        "The program computes travel fare based on distance, using different per‑kilometer rates depending on thresholds.",
+    ),
+    (
+        25,
+        "Verificar triângulo",
+        "Triangle Validity Check",
+        "float, geometry, conditions",
+        "O exercício verifica se três segmentos podem formar um triângulo usando a regra da soma dos lados.",
+        "The exercise checks whether three segments can form a triangle using the side‑sum rule.",
+    ),
+    (
+        26,
+        "Comparação entre dois números",
+        "Compare Two Numbers",
+        "int, conditions",
+        "O programa lê dois números inteiros e determina qual é maior ou se são iguais. Trabalha comparação de valores e lógica condicional simples.",
+        "The program reads two integers and determines which one is larger or if they are equal. It practices value comparison and basic conditional logic.",
+    ),
+    (
+        27,
+        "Média com classificação",
+        "Average with Classification",
+        "float, conditions",
+        "O exercício calcula a média de duas notas e classifica o aluno conforme as faixas definidas. Trabalha condições compostas e interpretação de resultados.",
+        "The exercise computes the average of two grades and classifies the student according to defined ranges. It reinforces compound conditions and result interpretation.",
+    ),
+    (
+        28,
+        "Classificação de terreno",
+        "Land Size Classification",
+        "float, conditions",
+        "O programa calcula a área de um terreno e o classifica como popular, master ou VIP. Trabalha operações geométricas e condições múltiplas.",
+        "The program computes the area of a plot and classifies it as popular, master, or VIP. It practices geometric calculations and multi‑branch conditions.",
+    ),
+    (
+        29,
+        "Reajuste salarial por tempo",
+        "Salary Adjustment by Years",
+        "float, conditions, percentage",
+        "O exercício aplica um aumento salarial baseado nos anos de empresa. Trabalha condições encadeadas e cálculos percentuais.",
+        "The exercise applies a salary raise based on years of employment. It reinforces chained conditions and percentage calculations.",
+    ),
+    (
+        30,
+        "Tipo de triângulo",
+        "Triangle Type",
+        "geometry, conditions",
+        "O programa identifica se um triângulo é equilátero, isósceles ou escaleno após validar os lados. Trabalha lógica geométrica e condições múltiplas.",
+        "The program identifies whether a triangle is equilateral, isosceles, or scalene after validating the sides. It practices geometric logic and multi‑branch conditions.",
+    ),
+    (
+        31,
+        "Jogo JoKenPo",
+        "Rock‑Paper‑Scissors",
+        "random, conditions",
+        "O exercício implementa o jogo Pedra‑Papel‑Tesoura com escolha aleatória do computador. Trabalha aleatoriedade e comparação de regras.",
+        "The exercise implements the Rock‑Paper‑Scissors game with a random computer choice. It practices randomness and rule comparison.",
+    ),
+    (
+        32,
+        "Jogo de adivinhação (1–5)",
+        "Guessing Game (1–5)",
+        "random, conditions",
+        "O computador sorteia um número entre 1 e 5 e o jogador tenta adivinhar. Trabalha aleatoriedade e interação simples.",
+        "The computer picks a number between 1 and 5 and the player tries to guess it. It reinforces randomness and simple interaction.",
+    ),
+    (
+        33,
+        "Aprovação de empréstimo",
+        "Loan Approval",
+        "float, conditions",
+        "O programa calcula a prestação de um empréstimo e verifica se excede 30% do salário. Trabalha cálculos financeiros e tomada de decisão.",
+        "The program computes a loan payment and checks whether it exceeds 30% of the salary. It practices financial calculations and decision making.",
+    ),
+    (
+        34,
+        "Cálculo do IMC",
+        "BMI Calculation",
+        "float, health, conditions",
+        "O exercício calcula o IMC e classifica o resultado em faixas como peso ideal ou obesidade. Trabalha fórmulas e condições múltiplas.",
+        "The exercise computes BMI and classifies the result into categories such as ideal weight or obesity. It reinforces formulas and multi‑branch conditions.",
+    ),
+    (
+        35,
+        "Aluguel de carro (popular/luxo)",
+        "Car Rental (Popular/Luxury)",
+        "float, conditions",
+        "O programa calcula o custo do aluguel considerando tipo de carro, dias e quilometragem. Trabalha condições complexas e cálculos combinados.",
+        "The program computes rental cost based on car type, rental days, and kilometers driven. It practices complex conditions and combined calculations.",
+    ),
+    (
+        36,
+        "Pontos por atividade física",
+        "Fitness Points",
+        "float, conditions",
+        "O exercício calcula pontos por horas de atividade física e converte em dinheiro. Trabalha faixas de pontuação e cálculos progressivos.",
+        "The exercise calculates points from physical activity hours and converts them into money. It reinforces tiered scoring and progressive calculations.",
+    ),
+    (
+        37,
+        "Reajuste salarial por gênero",
+        "Salary Adjustment by Gender",
+        "float, conditions",
+        "O programa aplica aumentos diferentes conforme género e tempo de empresa. Trabalha condições compostas e múltiplos critérios.",
+        "The program applies salary raises based on gender and years of employment. It practices compound conditions and multi‑criteria logic.",
+    ),
+    (
+        38,
+        "Contagem de 6 a 11",
+        "Counting 6 to 11",
+        "while, loop, int",
+        "O exercício exibe uma contagem crescente de 6 a 11 usando um laço enquanto. Trabalha repetição simples.",
+        "The exercise displays a count from 6 to 11 using a while loop. It reinforces simple repetition.",
+    ),
+    (
+        39,
+        "Contagem regressiva de 10 a 3",
+        "Countdown 10 to 3",
+        "while, loop",
+        "O programa mostra uma contagem regressiva de 10 até 3. Trabalha decremento em laços.",
+        "The program displays a countdown from 10 to 3. It practices decrement loops.",
+    ),
+    (
+        40,
+        "Contagem de 0 a 18 de 3 em 3",
+        "Count 0 to 18 by 3",
+        "while, loop, step",
+        "O exercício exibe uma contagem de 0 a 18 avançando de 3 em 3. Trabalha incrementos personalizados.",
+        "The exercise displays a count from 0 to 18 stepping by 3. It reinforces custom step control.",
+    ),
+    (
+        41,
+        "Contagem de 100 a 0 de 5 em 5",
+        "Count 100 to 0 by 5",
+        "while, loop, step",
+        "O programa mostra uma contagem regressiva de 100 a 0 diminuindo de 5 em 5. Trabalha decrementos personalizados.",
+        "The program displays a countdown from 100 to 0 decreasing by 5. It practices custom decrement loops.",
+    ),
+    (
+        42,
+        "Contagem até valor digitado",
+        "Count Up to User Value",
+        "while, loop, input",
+        "O exercício lê um número positivo e exibe uma contagem até esse valor. Trabalha repetição controlada pelo utilizador.",
+        "The exercise reads a positive number and counts up to that value. It reinforces user‑controlled repetition.",
+    ),
+    (
+        43,
+        "Contagem regressiva marcando divisíveis por 4",
+        "Countdown Marking Multiples of 4",
+        "while, modulo, loop",
+        "O programa faz contagem regressiva de 30 a 1 destacando números divisíveis por 4. Trabalha uso do operador módulo.",
+        "The program performs a countdown from 30 to 1 marking numbers divisible by 4. It practices modulo operations.",
+    ),
+    (
+        44,
+        "Contagem com início, fim e incremento",
+        "Count with Start, End, Step",
+        "while, loop, input",
+        "O exercício lê início, fim e incremento e exibe a contagem correspondente. Trabalha repetição parametrizada.",
+        "The exercise reads start, end, and step values and displays the resulting count. It reinforces parameterized loops.",
+    ),
+    (
+        45,
+        "Contagem adaptada para qualquer ordem",
+        "Flexible Counting (Any Direction)",
+        "while, loop, conditions",
+        "O programa adapta a contagem para funcionar em ordem crescente ou decrescente. Trabalha lógica condicional aplicada a laços.",
+        "The program adapts counting to work in ascending or descending order. It practices conditional logic applied to loops.",
+    ),
+    (
+        46,
+        "Soma de pares de 6 a 100",
+        "Sum of Even Numbers 6–100",
+        "while, arithmetic, loop",
+        "O exercício soma todos os números pares entre 6 e 100. Trabalha filtragem por condição e acumulação.",
+        "The exercise sums all even numbers between 6 and 100. It reinforces conditional filtering and accumulation.",
+    ),
+    (
+        47,
+        "Soma decrescente 500 a 0",
+        "Descending Sum 500–0",
+        "while, arithmetic, loop",
+        "O programa calcula a soma de uma sequência decrescente de 500 até 0. Trabalha repetição com decremento.",
+        "The program computes the sum of a descending sequence from 500 to 0. It practices decrement loops and accumulation.",
+    ),
+    (
+        48,
+        "Soma de 7 números",
+        "Sum of 7 Integers",
+        "while, input, arithmetic",
+        "O exercício lê 7 números inteiros e calcula o somatório total. Trabalha repetição fixa.",
+        "The exercise reads 7 integers and computes their total sum. It reinforces fixed‑length loops.",
+    ),
+    (
+        49,
+        "Contagem de pares e ímpares",
+        "Count Even and Odd Numbers",
+        "while, modulo, input",
+        "O programa lê 6 números e conta quantos são pares e quantos são ímpares. Trabalha classificação numérica.",
+        "The program reads 6 numbers and counts how many are even and how many are odd. It practices numeric classification.",
+    ),
+    (
+        50,
+        "Sorteio de 20 números e análises",
+        "Random Numbers Analysis",
+        "random, list, loop",
+        "O exercício sorteia 20 números e exibe quantos são maiores que 5 e quantos são divisíveis por 3. Trabalha listas e análise de dados.",
+        "The exercise draws 20 random numbers and shows how many are above 5 and how many are divisible by 3. It reinforces lists and data analysis.",
+    ),
+    (
+        51,
+        "Maior e menor preço",
+        "Highest and Lowest Price",
+        "input, float, comparison",
+        "O programa lê o preço de 8 produtos e identifica o maior e o menor valor digitado. Trabalha comparação contínua e análise de dados numéricos.",
+        "The program reads the prices of 8 products and identifies the highest and lowest values. It practices continuous comparison and numeric analysis.",
+    ),
+    (
+        52,
+        "Estatísticas de idade (10 pessoas)",
+        "Age Statistics (10 People)",
+        "input, loop, arithmetic",
+        "O exercício lê a idade de 10 pessoas e calcula média, quantidade acima de 18, quantidade abaixo de 5 e a maior idade. Trabalha estatísticas básicas.",
+        "The exercise reads the ages of 10 people and computes the average, how many are over 18, how many are under 5, and the highest age. It reinforces basic statistics.",
+    ),
+    (
+        53,
+        "Estatísticas de idade e sexo",
+        "Age and Gender Statistics",
+        "input, loop, conditions",
+        "O programa lê idade e sexo de 5 pessoas e calcula estatísticas como número de homens, número de mulheres e médias. Trabalha agrupamento condicional.",
+        "The program reads age and gender of 5 people and computes statistics such as number of men, number of women, and averages. It practices conditional grouping.",
+    ),
+    (
+        54,
+        "Estatísticas de peso e altura",
+        "Weight and Height Statistics",
+        "input, loop, conditions",
+        "O exercício lê peso e altura de 7 pessoas e calcula média de altura e várias contagens baseadas em critérios. Trabalha múltiplas condições simultâneas.",
+        "The exercise reads weight and height of 7 people and computes average height and several conditional counts. It reinforces multi‑criteria analysis.",
+    ),
+    (
+        55,
+        "Jogo de adivinhação com tentativas",
+        "Guessing Game with Attempts",
+        "random, loop, conditions",
+        "O computador sorteia um número entre 1 e 10 e o jogador tem 4 tentativas para acertar. Trabalha controle de tentativas e aleatoriedade.",
+        "The computer picks a number between 1 and 10 and the player has 4 attempts to guess it. It practices attempt control and randomness.",
+    ),
+    (
+        56,
+        "Soma até digitar 1111",
+        "Sum Until 1111",
+        "while, flag, input",
+        "O programa lê vários números e soma todos até que 1111 seja digitado. Trabalha laços com sentinela.",
+        "The program reads numbers and sums them until 1111 is entered. It reinforces sentinel‑controlled loops.",
+    ),
+    (
+        57,
+        "Total de salários por sexo",
+        "Salary Totals by Gender",
+        "while, conditions, float",
+        "O exercício lê salário e sexo de vários funcionários e acumula totais separados para homens e mulheres. Trabalha agrupamento condicional.",
+        "The exercise reads salary and gender of multiple employees and accumulates totals for men and women. It practices conditional grouping.",
+    ),
+    (
+        58,
+        "Idades até digitar 999",
+        "Ages Until 999",
+        "while, flag, input",
+        "O programa lê idades até que 999 seja digitado, contando pessoas e calculando a média. Trabalha laços com sentinela.",
+        "The program reads ages until 999 is entered, counting people and computing the average. It reinforces sentinel loops.",
+    ),
+    (
+        59,
+        "Estatísticas de idade e sexo",
+        "Age and Gender Statistics",
+        "while, conditions",
+        "O exercício lê idade e sexo de várias pessoas e calcula maior idade, número de homens, mulher mais jovem e média dos homens.",
+        "The exercise reads age and gender of multiple people and computes highest age, number of men, youngest woman, and men’s average age.",
+    ),
+    (
+        60,
+        "Estatísticas completas de pessoas",
+        "Full People Statistics",
+        "while, conditions",
+        "O programa lê nome, idade e sexo e determina pessoa mais velha, mulher mais jovem, média geral e outras contagens. Trabalha múltiplos critérios.",
+        "The program reads name, age, and gender and determines the oldest person, youngest woman, overall average, and other counts. It reinforces multi‑criteria evaluation.",
+    ),
+    (
+        61,
+        "Contagem 0 a 30 de 3 em 3",
+        "Count 0 to 30 by 3",
+        "do-while, loop",
+        "O programa exibe uma contagem de 0 a 30 avançando de 3 em 3 usando faça‑enquanto. Trabalha repetição pós‑condição.",
+        "The program displays a count from 0 to 30 stepping by 3 using a do‑while loop. It reinforces post‑condition repetition.",
+    ),
+    (
+        62,
+        "Idades com faça‑enquanto e estatísticas",
+        "Ages with Do‑While and Statistics",
+        "do-while, input",
+        "O exercício lê idades até o utilizador parar e calcula quantidade, média e quantos têm 21 anos ou mais. Trabalha repetição controlada.",
+        "The exercise reads ages until the user stops and computes count, average, and how many are 21 or older. It practices user‑controlled loops.",
+    ),
+    (
+        63,
+        "Números com faça‑enquanto e análises",
+        "Numbers with Do‑While and Analysis",
+        "do-while, input, arithmetic",
+        "O programa lê vários números e mostra soma, menor valor, média e quantidade de pares. Trabalha análise numérica.",
+        "The program reads several numbers and displays the sum, smallest value, average, and count of even numbers. It reinforces numeric analysis.",
+    ),
+    (
+        64,
+        "Contagem 0 a 40 de 5 em 5",
+        "Count 0 to 40 by 5",
+        "for, loop",
+        "O exercício exibe uma contagem de 0 a 40 avançando de 5 em 5 usando para. Trabalha incrementos fixos.",
+        "The exercise displays a count from 0 to 40 stepping by 5 using a for loop. It practices fixed‑step repetition.",
+    ),
+    (
+        65,
+        "Contagem regressiva 100 a 0",
+        "Countdown 100 to 0",
+        "for, loop",
+        "O programa mostra uma contagem regressiva de 100 até 0 usando para. Trabalha decremento controlado.",
+        "The program displays a countdown from 100 to 0 using a for loop. It reinforces controlled decrement.",
+    ),
+    (
+        66,
+        "Tabuada",
+        "Multiplication Table",
+        "for, arithmetic",
+        "O exercício lê um número e exibe a sua tabuada completa. Trabalha laços contados e operações repetitivas.",
+        "The exercise reads a number and displays its full multiplication table. It practices counted loops and repetitive arithmetic.",
+    ),
+    (
+        67,
+        "Contagem até valor digitado",
+        "Count Up to User Value",
+        "for, loop",
+        "O programa lê um número inteiro positivo e exibe contagem de 0 até ele. Trabalha repetição controlada pelo utilizador.",
+        "The program reads a positive integer and counts from 0 up to it. It reinforces user‑driven loop limits.",
+    ),
+    (
+        68,
+        "Estatísticas de sexo e peso",
+        "Gender and Weight Statistics",
+        "for, conditions",
+        "O exercício lê sexo e peso de 8 pessoas e calcula várias estatísticas. Trabalha análise condicional em vetores.",
+        "The exercise reads gender and weight of 8 people and computes several statistics. It practices conditional analysis in loops.",
+    ),
+    (
+        69,
+        "Progressão aritmética",
+        "Arithmetic Progression",
+        "for, arithmetic",
+        "O programa lê primeiro termo e razão e exibe 10 elementos da PA e a soma total. Trabalha sequências numéricas.",
+        "The program reads the first term and common difference and displays 10 AP terms and their sum. It reinforces numeric sequences.",
+    ),
+    (
+        70,
+        "Sequência de Fibonacci",
+        "Fibonacci Sequence",
+        "for, fibonacci",
+        "O exercício mostra os 10 primeiros termos da sequência de Fibonacci. Trabalha geração iterativa.",
+        "The exercise displays the first 10 Fibonacci terms. It practices iterative sequence generation.",
+    ),
+    (
+        71,
+        "Vetor automático (999)",
+        "Auto‑Filled Vector (999)",
+        "list, fill",
+        "O programa preenche um vetor de 8 posições com o valor 999. Trabalha inicialização de vetores.",
+        "The program fills an 8‑position array with the value 999. It reinforces array initialization.",
+    ),
+    (
+        72,
+        "Vetor de múltiplos de 5",
+        "Vector of Multiples of 5",
+        "list, arithmetic",
+        "O exercício preenche um vetor com múltiplos de 5 de 5 a 50. Trabalha geração lógica de sequências.",
+        "The exercise fills an array with multiples of 5 from 5 to 50. It practices logical sequence generation.",
+    ),
+    (
+        73,
+        "Vetor decrescente 9 a 0",
+        "Descending Vector 9 to 0",
+        "list, reverse",
+        "O programa preenche um vetor com valores de 9 a 0 em ordem decrescente. Trabalha lógica reversa.",
+        "The program fills an array with values from 9 to 0 in descending order. It reinforces reverse logic.",
+    ),
+    (
+        74,
+        "Vetor alternado 5 e 3",
+        "Alternating Vector 5 and 3",
+        "list, pattern",
+        "O exercício preenche um vetor alternando 5 e 3. Trabalha padrões repetitivos.",
+        "The exercise fills an array alternating between 5 and 3. It practices repetitive patterns.",
+    ),
+    (
+        75,
+        "Vetor Fibonacci (15 termos)",
+        "Fibonacci Vector (15 Terms)",
+        "list, fibonacci",
+        "O programa preenche um vetor com os primeiros 15 termos da sequência de Fibonacci. Trabalha geração iterativa.",
+        "The program fills an array with the first 15 Fibonacci terms. It reinforces iterative generation.",
+    ),
+    (
+        76,
+        "Vetor com números aleatórios",
+        "Vector with Random Numbers",
+        "list, random",
+        "O exercício gera automaticamente 7 números aleatórios e armazena num vetor, exibindo todos no final. Trabalha aleatoriedade e manipulação de vetores.",
+        "The exercise generates 7 random numbers and stores them in an array, displaying them afterward. It practices randomness and array handling.",
+    ),
+    (
+        77,
+        "Vetor com nomes invertidos",
+        "Names in Reverse Order",
+        "list, strings",
+        "O programa lê 7 nomes e exibe a lista em ordem inversa. Trabalha manipulação de vetores e inversão de ordem.",
+        "The program reads 7 names and displays them in reverse order. It reinforces array manipulation and order inversion.",
+    ),
+    (
+        78,
+        "Vetor com 15 números e múltiplos de 10",
+        "Vector and Multiples of 10",
+        "list, modulo",
+        "O exercício lê 15 números e identifica quais são múltiplos de 10 e em que posições aparecem. Trabalha análise posicional e filtragem.",
+        "The exercise reads 15 numbers and identifies which are multiples of 10 and their positions. It practices positional analysis and conditional filtering.",
+    ),
+    (
+        79,
+        "Vetor com pares e posições",
+        "Even Numbers and Positions",
+        "list, modulo",
+        "O programa lê 10 números e mostra quais são pares e em que posições estão. Trabalha classificação numérica e indexação.",
+        "The program reads 10 numbers and displays which are even and their positions. It reinforces numeric classification and indexing.",
+    ),
+    (
+        80,
+        "Busca de chave no vetor",
+        "Key Search in Vector",
+        "list, search",
+        "O exercício preenche um vetor com 30 números aleatórios e procura todas as ocorrências de um valor digitado. Trabalha busca linear e contagem.",
+        "The exercise fills an array with 30 random numbers and searches for all occurrences of a user‑provided value. It practices linear search and counting.",
+    ),
+    (
+        81,
+        "Estatísticas de idades",
+        "Age Statistics",
+        "list, arithmetic",
+        "O programa lê a idade de 8 pessoas e calcula média, posições com mais de 25 anos, maior idade e suas posições. Trabalha estatística em vetores.",
+        "The program reads the ages of 8 people and computes the average, positions with ages over 25, highest age, and its positions. It reinforces statistical analysis.",
+    ),
+    (
+        82,
+        "Estatísticas de notas",
+        "Grade Statistics",
+        "list, arithmetic",
+        "O exercício lê 10 notas e calcula média, quantidade acima da média, maior nota e suas posições. Trabalha análise de desempenho.",
+        "The exercise reads 10 grades and computes class average, number above average, highest grade, and its positions. It practices performance analysis.",
+    ),
+    (
+        83,
+        "Vetor aleatório e ordenação",
+        "Random Vector and Sorting",
+        "list, sort",
+        "O programa gera 20 números aleatórios, exibe a lista original e depois a lista ordenada. Trabalha ordenação crescente.",
+        "The program generates 20 random numbers, displays the original list, and then the sorted list. It reinforces sorting and array manipulation.",
+    ),
+    (
+        84,
+        "Vetores paralelos (nome e idade)",
+        "Parallel Arrays (Name and Age)",
+        "list, parallel",
+        "O exercício lê nome e idade de 9 pessoas e exibe apenas os menores de idade. Trabalha vetores paralelos e filtragem.",
+        "The exercise reads name and age of 9 people and displays only those who are minors. It practices parallel arrays and filtering.",
+    ),
+    (
+        85,
+        "Funcionárias com salário > 5k",
+        "Female Employees Earning > 5k",
+        "list, conditions",
+        "O programa lê nome, sexo e salário de 5 funcionários e exibe apenas as mulheres que ganham mais de 5 mil. Trabalha filtragem condicional.",
+        "The program reads name, gender, and salary of 5 employees and displays only the women earning more than 5k. It reinforces conditional filtering.",
+    ),
+    (
+        86,
+        "Gerador com bordas simples",
+        "Simple Border Generator",
+        "procedure, print",
+        "O exercício cria um procedimento que exibe uma mensagem com bordas simples. Trabalha modularização e estética de saída.",
+        "The exercise creates a procedure that prints a message with simple borders. It practices modularization and output formatting.",
+    ),
+    (
+        87,
+        "Gerador com mensagem personalizada",
+        "Custom Message Generator",
+        "procedure, print",
+        "O programa permite passar uma mensagem personalizada ao gerador. Trabalha procedimentos com parâmetros.",
+        "The program allows passing a custom message to the generator. It reinforces procedures with parameters.",
+    ),
+    (
+        88,
+        "Gerador repetindo mensagem",
+        "Repeated Message Generator",
+        "procedure, loop",
+        "O exercício permite repetir a mensagem várias vezes conforme parâmetro. Trabalha repetição dentro de procedimentos.",
+        "The exercise allows repeating the message multiple times based on a parameter. It practices loops inside procedures.",
+    ),
+    (
+        89,
+        "Gerador com escolha de borda",
+        "Border‑Style Generator",
+        "procedure, conditions",
+        "O programa permite escolher entre três estilos de borda ao exibir a mensagem. Trabalha seleção condicional.",
+        "The program allows choosing among three border styles when displaying the message. It reinforces conditional selection.",
+    ),
+    (
+        90,
+        "Procedimento Somador",
+        "Sum Procedure",
+        "procedure, arithmetic",
+        "O exercício cria um procedimento que recebe dois valores e exibe a soma. Trabalha modularização e operações básicas.",
+        "The exercise creates a procedure that receives two values and displays their sum. It practices modularization and arithmetic.",
+    ),
+    (
+        91,
+        "Procedimento Maior",
+        "Max Value Procedure",
+        "procedure, conditions",
+        "O programa recebe dois valores e exibe qual é o maior, indicando se são iguais. Trabalha comparação e lógica condicional.",
+        "The program receives two values and displays the larger one, indicating if they are equal. It reinforces comparison and conditional logic.",
+    ),
+    (
+        92,
+        "Procedimento ParOuImpar",
+        "EvenOrOdd Procedure",
+        "procedure, modulo",
+        "O exercício recebe um número inteiro e indica se é par ou ímpar. Trabalha modularização e operador módulo.",
+        "The exercise receives an integer and indicates whether it is even or odd. It practices modularization and modulo operations.",
+    ),
+    (
+        93,
+        "Procedimento Contador",
+        "Counter Procedure",
+        "procedure, loop",
+        "O programa recebe início, fim e incremento e exibe a contagem correspondente. Trabalha parametrização de laços.",
+        "The program receives start, end, and step values and displays the corresponding count. It reinforces loop parameterization.",
+    ),
+    (
+        94,
+        "Procedimento Fibonacci",
+        "Fibonacci Procedure",
+        "procedure, fibonacci",
+        "O exercício recebe um número N e exibe os N primeiros termos da sequência de Fibonacci. Trabalha geração iterativa.",
+        "The exercise receives a number N and displays the first N Fibonacci terms. It practices iterative generation.",
+    ),
+    (
+        95,
+        "Função Somador",
+        "Sum Function",
+        "function, arithmetic",
+        "O programa cria uma função que recebe dois valores e retorna a soma. Trabalha retorno de funções.",
+        "The program creates a function that receives two values and returns their sum. It reinforces function returns.",
+    ),
+    (
+        96,
+        "Função Média",
+        "Average Function",
+        "function, arithmetic",
+        "O exercício cria uma função que recebe duas notas e retorna a média. Trabalha encapsulamento de lógica.",
+        "The exercise creates a function that receives two grades and returns their average. It practices logic encapsulation.",
+    ),
+    (
+        97,
+        "Função Maior (3 valores)",
+        "Max of Three Values",
+        "function, conditions",
+        "O programa cria uma função que recebe três números e retorna o maior. Trabalha comparação múltipla.",
+        "The program creates a function that receives three numbers and returns the largest. It reinforces multi‑value comparison.",
+    ),
+    (
+        98,
+        "Função SuperSomador",
+        "Interval Sum Function",
+        "function, loop",
+        "O exercício cria uma função que soma todos os valores no intervalo entre dois números. Trabalha laços e acumulação.",
+        "The exercise creates a function that sums all values in the interval between two numbers. It practices loops and accumulation.",
+    ),
+    (
+        99,
+        "Função Potência",
+        "Power Function",
+        "function, arithmetic",
+        "O programa cria uma função que calcula a exponenciação com base e expoente. Trabalha operações matemáticas.",
+        "The program creates a function that calculates exponentiation using base and exponent. It reinforces mathematical operations.",
+    ),
+    (
+        100,
+        "Funções Média e Situação",
+        "Average and Status Functions",
+        "function, conditions",
+        "O exercício define duas funções: uma calcula a média e outra determina a situação do aluno. Trabalha integração entre funções e lógica condicional.",
+        "The exercise defines two functions: one computes the average and the other determines the student’s status. It practices function integration and conditional logic.",
+    ),
+]
+
+# ============================================
+# LISTA DE EXERCÍCIOS (1–100)
+# (cola aqui a variável 'exercicios' completa)
+# ============================================
+
+def gerar_cabecalho(numero: int, titulo_pt: str, titulo_en: str, tags: str, desc_pt: str, desc_en: str) -> str:
+    """Gera o cabeçalho no formato D."""
+    return (
+        "# ============================================\n"
+        f"# [{numero:02d}] {titulo_pt} / {titulo_en}\n"
+        f"# Tags: {tags}\n"
+        "#\n"
+        "# Descrição (PT):\n"
+        f"#   {desc_pt}\n"
+        "#\n"
+        "# Description (EN):\n"
+        f"#   {desc_en}\n"
+        "# ============================================\n\n"
+    )
+
+
+def aplicar_cabecalhos():
+    """Aplica cabeçalhos aos ficheiros, incluindo agrupamentos especiais."""
+
+    base_path = r"C:\Users\ramos\Desktop\OneDrive - Office 365\# FORAVE\Especialista em Gestão de Informação e Ciência dos Dados\1º semestre\10794 - Programação avançada com Python\Exercícios-de-Algoritmos-1-100"
+
+    # Mapa de ficheiros especiais (vários exercícios → 1 ficheiro)
+    ficheiros_especiais = {
+        38: "38.py",
+        39: "38.py",
+        40: "38.py",
+        41: "38.py",
+        44: "44.py",
+        45: "44.py",
+    }
+
+    # 1) Agrupar cabeçalhos por ficheiro
+    grupos: dict[str, list[str]] = {}
+
+    for numero, titulo_pt, titulo_en, tags, desc_pt, desc_en in exercicios:
+
+        # Determinar o ficheiro correto
+        filename = ficheiros_especiais.get(numero, f"{numero:02d}.py")
+        filename = os.path.join(base_path, filename)
+
+        # Gerar cabeçalho
+        cabecalho = gerar_cabecalho(
+            numero, titulo_pt, titulo_en, tags, desc_pt, desc_en
+        )
+
+        # Acumular cabeçalhos na ordem original
+        grupos.setdefault(filename, [])
+        grupos[filename].append(cabecalho)
+
+    # 2) Escrever os ficheiros com cabeçalhos na ordem correta
+    for filename, lista_cabecalhos in grupos.items():
+
+        # Junta os cabeçalhos na ordem original (38 → 39 → 40 → 41)
+        conteudo_cabecalhos = "".join(lista_cabecalhos)
+
+        # Lê o conteúdo antigo, se existir
+        if os.path.exists(filename):
+            with open(filename, "r", encoding="utf-8") as f:
+                conteudo_antigo = f.read()
+        else:
+            conteudo_antigo = ""
+
+        # Escreve tudo de uma vez
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write(conteudo_cabecalhos + conteudo_antigo)
+
+        print(f"✔ Cabeçalhos inseridos em {filename}")
+
+
+if __name__ == "__main__":
+    aplicar_cabecalhos()

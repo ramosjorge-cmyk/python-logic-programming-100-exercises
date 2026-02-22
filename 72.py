@@ -1,3 +1,14 @@
+# ============================================
+# [72] Vetor de múltiplos de 5 / Vector of Multiples of 5
+# Tags: list, arithmetic
+#
+# Descrição (PT):
+#   O exercício preenche um vetor com múltiplos de 5 de 5 a 50. Trabalha geração lógica de sequências.
+#
+# Description (EN):
+#   The exercise fills an array with multiples of 5 from 5 to 50. It practices logical sequence generation.
+# ============================================
+
 import os
 import subprocess
 

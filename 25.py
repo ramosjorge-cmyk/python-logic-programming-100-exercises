@@ -1,3 +1,14 @@
+# ============================================
+# [25] Verificar triângulo / Triangle Validity Check
+# Tags: float, geometry, conditions
+#
+# Descrição (PT):
+#   O exercício verifica se três segmentos podem formar um triângulo usando a regra da soma dos lados.
+#
+# Description (EN):
+#   The exercise checks whether three segments can form a triangle using the side‑sum rule.
+# ============================================
+
 import os
 import subprocess
 

@@ -1,3 +1,14 @@
+# ============================================
+# [58] Idades até digitar 999 / Ages Until 999
+# Tags: while, flag, input
+#
+# Descrição (PT):
+#   O programa lê idades até que 999 seja digitado, contando pessoas e calculando a média. Trabalha laços com sentinela.
+#
+# Description (EN):
+#   The program reads ages until 999 is entered, counting people and computing the average. It reinforces sentinel loops.
+# ============================================
+
 import os
 import subprocess
 

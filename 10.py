@@ -1,3 +1,14 @@
+# ============================================
+# [10] Área da parede e tinta necessária / Wall Area and Paint Needed
+# Tags: float, arithmetic
+#
+# Descrição (PT):
+#   O programa lê largura e altura de uma parede, calcula a área e determina a quantidade de tinta necessária, considerando a taxa de cobertura.
+#
+# Description (EN):
+#   The program reads wall dimensions, computes the area, and determines the amount of paint needed based on a fixed coverage rate.
+# ============================================
+
 import os
 import subprocess
 
