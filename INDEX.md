@@ -1,3 +1,5 @@
+(for better reading see in code)
+
 📘 INDEX.md — Catálogo de Exercícios / Exercise Index
 (Português + English)
 
@@ -428,5 +430,6 @@ ________________________________________
       Tags: function, conditions
 ________________________________________
 🎉 INDEX.md concluído!
+
 
 
