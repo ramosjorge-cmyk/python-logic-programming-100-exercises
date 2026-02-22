@@ -33,7 +33,7 @@ Each exercise is stored in its own file, simple and easy to read.
 
 Cada exercício está num ficheiro independente:  
 Each exercise is stored in an individual file:
-1.py 2.py 3.py ... 100.py
+01.py 02.py 03.py ... 100.py
 
 
 Os ficheiros são numerados para facilitar a navegação e a prática.  
