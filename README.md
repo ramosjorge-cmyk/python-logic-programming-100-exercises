@@ -142,8 +142,11 @@ ________________________________________
 
 ________________________________________
 📚 Lista Completa de Exercícios | Full Exercise List
+
 A lista completa dos 100 exercícios, com títulos bilingues e tags de pesquisa, está disponível aqui:
+
 👉 INDEX.md
+
 ________________________________________
 📝 Exemplos de Exercícios | Example Exercises
 •	Sequências numéricas | Number sequences
