@@ -145,7 +145,8 @@ ________________________________________
 
 A lista completa dos 100 exercícios, com títulos bilingues e tags de pesquisa, está disponível aqui:
 
-👉 INDEX.md
+👉 **[Abrir INDEX.md](INDEX.md)**
+👉 **[INDEX.md — Lista Completa](INDEX.md)**
 
 ________________________________________
 📝 Exemplos de Exercícios | Example Exercises
@@ -192,27 +193,51 @@ Feel free to open an issue or pull request.
 
 ________________________________________
 ❓ FAQ — Perguntas Frequentes
+
 ❓ FAQ — Frequently Asked Questions
+
 🇵🇹 O código é adequado para iniciantes?
+
 Sim. Todos os exercícios são simples, diretos e focados em lógica básica.
+
 🇬🇧 Is the code suitable for beginners?
+
 Yes. All exercises are simple, clear, and focused on basic logic.
+
 ________________________________________
+
 🇵🇹 Posso usar este código para aprender ou ensinar?
+
 Claro! O objetivo deste repositório é ajudar estudantes, professores e autodidatas.
+
 🇬🇧 Can I use this code for learning or teaching?
+
 Absolutely. This repository is meant to help students, teachers, and self learners.
+
 ________________________________________
+
 🇵🇹 Posso reutilizar o código nos meus projetos?
+
 Sim. A licença MIT permite reutilização, modificação e distribuição.
+
 🇬🇧 Can I reuse the code in my own projects?
+
 Yes. The MIT license allows reuse, modification, and distribution.
+
 ________________________________________
+
 🇵🇹 Há dependências externas?
+
 Não. Todos os exercícios usam apenas Python puro.
+
 🇬🇧 Are there any external dependencies?
+
 No. All exercises use pure Python only.
+
 ________________________________________
+
 📄 Licença | License
+
 Este projeto usa a licença MIT.
+
 This project uses the MIT license.
