@@ -168,17 +168,28 @@ ________________________________________
 
 ________________________________________
 🛠️ Requisitos | Requirements
+
 •	Python 3.x
+
 •	Nenhuma biblioteca externa é necessária
+
 •	No external libraries required
+
 ________________________________________
 🤝 Contribuições | Contributions
+
 Português
+
 Sugestões, melhorias e novos exercícios são bem vindos.
+
 Sente te à vontade para abrir um issue ou pull request.
+
 English
+
 Suggestions, improvements, and new exercises are welcome.
+
 Feel free to open an issue or pull request.
+
 ________________________________________
 ❓ FAQ — Perguntas Frequentes
 ❓ FAQ — Frequently Asked Questions
