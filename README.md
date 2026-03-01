@@ -88,8 +88,11 @@ The application supports:
 📌 RESULTADOS: 🔍 3 exercício(s) encontrado(s)
 
 [12] Remover duplicados de uma lista 🏷️ listas, repetição 
+
 [37] Filtrar elementos únicos 🏷️ listas, lógica 
+
 [58] Contar ocorrências 🏷️ listas, contagem
+
 
 ← → para navegar | número = abrir exercício | ENTER = voltar à pesquisa
 
