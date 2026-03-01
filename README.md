@@ -119,16 +119,27 @@ English
 
 ________________________________________
 📂 Estrutura do Repositório | Repository Structure
+
 /
+
 ├── 01.py … 100.py           # Exercícios individuais
+
 ├── INDEX.md                 # Lista completa de exercícios
+
 ├── pesquisar_exercicio.py   # Interface de pesquisa
+
 ├── pesquisa.py              # Motor de pesquisa inteligente
+
 ├── indice_termos.py         # Índice semântico invertido
+
 ├── sinonimos.py             # Sinónimos, temas e expansão semântica
+
 ├── utils.py                 # Funções auxiliares (cores, destaque, etc.)
+
 ├── index_loader.py          # Leitor do INDEX.md
+
 └── README.md                # Este ficheiro
+
 ________________________________________
 📚 Lista Completa de Exercícios | Full Exercise List
 A lista completa dos 100 exercícios, com títulos bilingues e tags de pesquisa, está disponível aqui:
