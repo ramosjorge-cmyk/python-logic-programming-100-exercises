@@ -143,10 +143,11 @@ ________________________________________
 ________________________________________
 📚 Lista Completa de Exercícios | Full Exercise List
 
-A lista completa dos 100 exercícios, com títulos bilingues e tags de pesquisa, está disponível aqui:
+A lista completa dos 100 exercícios, com títulos bilingues e tags de pesquisa, está disponível aqui:  
+👉 **[INDEX.md — Lista Completa](INDEX.md)**  
 
-👉 **[Abrir INDEX.md](INDEX.md)**
-👉 **[INDEX.md — Lista Completa](INDEX.md)**
+The full list of all 100 exercises, with bilingual titles and searchable tags, is available here:  
+👉 **[Open INDEX.md — Full List](INDEX.md)**
 
 ________________________________________
 📝 Exemplos de Exercícios | Example Exercises
