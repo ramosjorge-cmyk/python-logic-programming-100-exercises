@@ -149,14 +149,23 @@ A lista completa dos 100 exercícios, com títulos bilingues e tags de pesquisa,
 
 ________________________________________
 📝 Exemplos de Exercícios | Example Exercises
+
 •	Sequências numéricas | Number sequences
+
 •	Condicionais | Conditionals
+
 •	Ciclos | Loops
+
 •	Manipulação de strings | String manipulation
+
 •	Listas e coleções | Lists and collections
+
 •	Funções simples | Simple functions
+
 •	Problemas clássicos (ex.: Fibonacci, primos) | Classic problems (e.g., Fibonacci, primes)
+
 •	Exercícios de lógica | Logic puzzles
+
 ________________________________________
 🛠️ Requisitos | Requirements
 •	Python 3.x
