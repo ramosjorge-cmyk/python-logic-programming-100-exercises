@@ -84,14 +84,14 @@ The application supports:
 ### Screenshot (ASCII)
 
 🔎 PESQUISA DE EXERCÍCIOS (1–100) Digite o termo a pesquisar: remover duplicados de uma lista
+
 📌 RESULTADOS: 🔍 3 exercício(s) encontrado(s)
-[12] Remover duplicados de uma lista 🏷️ listas, repetição [37] Filtrar elementos únicos 🏷️ listas, lógica [58] Contar ocorrências 🏷️ listas, contagem
+
+[12] Remover duplicados de uma lista 🏷️ listas, repetição 
+[37] Filtrar elementos únicos 🏷️ listas, lógica 
+[58] Contar ocorrências 🏷️ listas, contagem
+
 ← → para navegar | número = abrir exercício | ENTER = voltar à pesquisa
-
-### GIF de Demonstração
-*(Coloca aqui o teu GIF quando o tiveres)*
-
-[Parece que o resultado não era seguro para mostrar. Vamos alterar tudo e tentar outra coisa!]
 
 ---
 
