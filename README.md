@@ -105,6 +105,7 @@ The application supports:
    python pesquisar_exercicio.py
 4.	Escreve o que queres procurar
 5.	Usa as setas para navegar e números para abrir exercícios
+
 English
 1.	Make sure you have Python 3.x installed
 2.	Open a terminal in the project folder
@@ -112,6 +113,7 @@ English
 4.	python pesquisar_exercicio.py
 5.	Type what you want to search
 6.	Use arrow keys to navigate and numbers to open exercises
+
 ________________________________________
 📂 Estrutura do Repositório | Repository Structure
 /
